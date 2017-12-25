@@ -7,5 +7,5 @@ Desktop.ini
 
 # thinkphp
 *config.php
-*conf
+conf/
 upload/
