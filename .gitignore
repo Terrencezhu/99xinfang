@@ -6,6 +6,6 @@ Desktop.ini
 !.gitignore
 
 # thinkphp
-config.php
-conf
-upload
+*config.php
+*conf
+upload/
