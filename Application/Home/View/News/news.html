@@ -1,0 +1,575 @@
+<extend name="Layout/Home"/>
+<block name="content">
+			<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/news.css"/> -->
+			<div id="banner">
+			<div id="index-banner" class="banner-box">
+				<div class="banner-img" style="display: block;"><img src="__PUBLIC__/home/img/banner/hot-banner1.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner2.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner3.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner4.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner5.jpg" alt="" /></div>
+				<ul id="banner-num">
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li" style="margin-right: 0;"></li>
+				</ul>
+				<div id="banner-left" onclick="bannerL()"><div></div></div>
+				<div id="banner-right" onclick="bannerR()"><div></div></div>
+			</div>
+			<div id="news-head">
+				<form class="news-head-right" action="">
+					<p class="news-head-top">遇到购房难题？没找到心仪的新房？</br>我们免费为您找房！</p>
+					<div><input type="text" name="" id="news-quyu" placeholder="您想在哪里买房？" value="您想在哪里买房？" /></div>
+					<div><input type="text" name="" id="news-yusuan" placeholder="您的购房预算？" value="您的购房预算？" /></div>
+					<div><input type="text" name="" id="news-name" placeholder="请输入您的姓名：" value="请输入您的姓名：" /></div>
+					<div><input type="text" name="" id="news-phone" placeholder="请输入您的手机号码：" value="请输入您的手机号码：" /></div>
+					<div><input type="submit" value="发送给咨询师" id="news-submit"/></div>
+				</form>
+			</div>
+		</div>
+		<div class="sousuo-box">
+			<div class="b-width">
+				<div class="form-box">
+					<span class="span-text"></span>
+					<span class="span-submit"><span></span>搜索</span>
+					<form class="input-box" action="">
+						<input type="text" class="input-text" placeholder="更多房产知识" value="更多房产知识"/>
+						<input type="submit" class="input-submit" value="搜索"/>
+					</form>
+				</div>
+				<div class="sousuo-right">
+					<a class="sousuo-tag" href="newtext.html" target="_blank">限购政策</a>
+					<a class="sousuo-tag" href="newtext.html" target="_blank">买房注意</a>
+					<a class="sousuo-tag" href="newtext.html" target="_blank">选房技巧</a>
+					<a class="sousuo-tag" href="newtext.html" target="_blank">房产证</a>
+					<a class="sousuo-tag" href="newtext.html" target="_blank">小产权</a>
+				</div>
+			</div>
+		</div>
+		<div id="address"><i></i><a class="" href="index.html">99新房></a>房产咨询</div>
+		<div class="center">
+			<ul class="news-nav">
+				<li class="news-nav-li"><a class="news-na" style="border-bottom-width:1px;color:#e14122;">楼市分析</a></li>
+				<li class="news-nav-li"><a class="news-na">买房准备</a></li>
+				<li class="news-nav-li"><a class="news-na">看房选房</a></li>
+				<li class="news-nav-li"><a class="news-na">订房签约</a></li>
+			</ul>
+			<div class="news-left">
+				<!--楼市分析-->
+				<div class="news-list-box" style="display: block;">
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？1</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img5.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img6.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+				</div>
+				<!--买房准备-->
+				<div class="news-list-box">
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？2</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img5.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img6.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+				</div>
+				<!--看房选房-->
+				<div class="news-list-box">
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？3</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img5.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img6.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+				</div>
+				<!--订房签约-->
+				<div class="news-list-box">
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？4</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img5.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img6.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+					<div class="news-list">
+						<a class="news-list-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="news-list-right">
+							<a class="news-list-title textoverflow" href="newtext.html" target="_blank"><span>[买房准备]</span>西红门房价下跌？是真是假？</a>
+							<p class="news-list-time">2017-05-04 17：18：35  </p>
+							<p class="news-list-text">2017年西红门房价将何去何从，2017西红门房价会下跌吗？可能对于很多在该区有购房需求的人士来说...</p>
+							<a class="news-list-button" href="newtext.html" target="_blank">查看详情</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--右部实时推荐-->
+			<div class="tuijian">
+				<!--买房必读-->
+				<div id="bidu">
+					<div class="tuijian-title tuijian-width"><span>买房必读</span></div>
+					<a class="bidu-img tuijian-width" href="newtext.html" target="_blank">
+						<img src="__PUBLIC__/home/img/news-img1.jpg" alt="" />
+					</a>
+					<ul class="bidu-list tuijian-width">
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num">1</span>公积金提取简化</a>
+						</li>
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num" >2</span>公积金提取简化</a>
+						</li>
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num">3</span>公积金提取简化</a>
+						</li>
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num">4</span>公积金提取简化</a>
+						</li>
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num">5</span>公积金提取简化</a>
+						</li>
+						<li>
+							<a class="bidi-text textoverflow" href="newtext.html" target="_blank"><span class="bidu-num">6</span>公积金提取简化</a>
+						</li>
+					</ul>
+				</div>
+				<!--精选热文-->
+				<div id="rewen">
+					<div class="tuijian-title tuijian-width"><span>精选热文</span></div>
+					<div class="rewen-list tuijian-width">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img1.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+					<div class="rewen-list tuijian-width">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img2.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+					<div class="rewen-list tuijian-width">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img3.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+					<div class="rewen-list tuijian-width">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img4.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+					<div class="rewen-list tuijian-width">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img5.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+					<div class="rewen-list tuijian-width" style="border:0;">
+						<a class="rewen-img" href="newtext.html" target="_blank"><img src="__PUBLIC__/home/img/news-img6.jpg" alt="" /></a>
+						<div class="rewen-body">
+							<a class="rewen-text" href="newtext.html" target="_blank">刚刚，央行关键指标“爆冷”！买房人吓出一身汗央行关键指标“爆冷”！买房人吓出一身汗</a>
+							<div class="rewen-time">08-17</div>
+						</div>
+					</div>
+				</div>
+				<!--热门楼盘推荐-->
+				<div id="loupan">
+					<div class="tuijian-title tuijian-width"><span>精品楼盘推荐</span></div>
+					<div class="loupan-list tuijian-width">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-07.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+					<div class="loupan-list tuijian-width">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-08.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+					<div class="loupan-list tuijian-width">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-09.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+					<div class="loupan-list tuijian-width">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-10.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+					<div class="loupan-list tuijian-width">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-11.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+					<div class="loupan-list tuijian-width" style="border:0;">
+						<a class="loupan-img" href="loupan.html" target="_blank"><img src="__PUBLIC__/home/img/loupan/fine-12.png" alt="" /></a>
+						<div class="loupan-body">
+							<a class="loupan-name" href="loupan.html" target="_blank">中南君悦府</a>
+							<div class="loupan-quyu">嘉善县</div>
+							<div class="loupan-jiage">均价：10000元/㎡</div>
+							<a class="loupan-button" href="loupan.html" target="_blank">查看楼盘</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a id="news-many" href="newmany.html">查看更多</a>
+
+		<script  type="text/javascript" src="__PUBLIC__/home/js/tongyong.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/home/js/banner.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/home/js/news.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/20001185/10056872.js"></script>
+
+</block>

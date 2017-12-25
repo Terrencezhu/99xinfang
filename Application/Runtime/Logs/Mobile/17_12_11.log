@@ -1,0 +1,877 @@
+[ 2017-12-11T16:10:40+08:00 ] 127.0.0.1 /mobile.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:11:02+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:05+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:05+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:05+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:06+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:47+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:11:48+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0150s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:11:48+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0300s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:11:48+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/js/yidong.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/css/shaixuan.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/css/swiper.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/banner/index.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/quyu-arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/sousuo-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/news-tubiao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/hot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/xiala.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:13:43+08:00 ] 127.0.0.1 /mobile.php/index/js/shaixuan.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:13:44+08:00 ] 127.0.0.1 /mobile.php/index/js/swiper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:13:44+08:00 ] 127.0.0.1 /mobile.php/index/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:17:17+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0240s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:17:17+08:00 ] 127.0.0.1 /mobile.php/index/js/yidong.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0110s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:17:17+08:00 ] 127.0.0.1 /mobile.php/index/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0180s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0180s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/css/swiper.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/css/shaixuan.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0130s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0300s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/banner/index.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/quyu-arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/sousuo-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/news-tubiao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/hot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/xiala.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/js/shaixuan.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/js/swiper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0110s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:17:18+08:00 ] 127.0.0.1 /mobile.php/index/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:js
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0110s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/css/swiper.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/css/shaixuan.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0110s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/quyu-arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/banner/index.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/sousuo-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0110s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0170s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:css
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/news-tubiao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/hot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:18:52+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/xiala.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/sousuo-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/quyu-arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/banner/index.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/nav-04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/news-tubiao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/news-img4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/tubiao/xiala.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:19:16+08:00 ] 127.0.0.1 /mobile.php/index/img/hot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-11T16:19:46+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0140s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-11T16:48:17+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  (trying to connect via tcp://bdm279265344.my3w.com:3306) E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2017-12-11T16:48:19+08:00 ] 127.0.0.1 /mobile.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  (trying to connect via tcp://bdm279265344.my3w.com:3306) E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2017-12-11T16:48:22+08:00 ] 127.0.0.1 /mobile.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  (trying to connect via tcp://bdm279265344.my3w.com:3306) E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+
+[ 2017-12-11T16:48:23+08:00 ] 127.0.0.1 /mobile.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  (trying to connect via tcp://bdm279265344.my3w.com:3306) E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£ 
+

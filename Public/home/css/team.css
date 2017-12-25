@@ -1,0 +1,43 @@
+#team-banner{width:100%;height:400px;}
+.banner-num{bottom:5%;left:45%;}
+#address{border-bottom: 0;}
+/*team-top*/
+.team-top{height:177px;padding:20px 0;border:1px solid #e2e1e0;}
+.team-top li{width:340px;height:177px;float: left;margin-left: 20px;}
+/*头部注册*/
+.search-content-box{width:100%;height:70px;background:#f3f3f3;position: relative;margin-bottom: 10px;}
+#search-content-tijiao{width:790px;position: absolute;top:20px;left:150px;/*border:1px solid #000;*/}
+#search-content-phone{width:266px;height:30px;line-height: 30px;border:1px solid #ccc;background: #f0f0f0;font-size: 14px;color:#757575;text-indent: 14px;}
+#search-content-submit{width:60px;height:32px;background:#c73619;font-size: 14px;position: absolute;top:0px;left:260px;}
+.search-content-img{width:15px;height:15px;position: absolute;top:15px;left:270px;}
+#search-content-tijiao p{font-size:20px; color:#333;float: right;}
+#search-content-tijiao p span{color:#c73619;}
+/*team-lists*/
+.team-js{width:100%;height:auto;border:1px solid #e2e1e0;border-bottom: 0;margin-bottom: 30px;}
+.team-lists{width:100%;height:160px;border-bottom:1px solid #e2e1e0;padding:20px 0;position: relative;}
+.team-img{width:120px;height:160px;margin-left: 20px;float: left;}
+.team-img img{width:100%;height:100%;}
+.team-xinxi{width:350px;height:100%;float:left;margin-left: 40px;/*border:1px solid #000;*/}
+.team-title{margin-bottom: 10px;height:30px;line-height: 30px;padding-top:15px;}
+.team-names,.team-dengji,.team-zixun{float:left;}
+.team-names{color:#333;font-size: 20px;margin-right:10px;}
+.team-names a{color:#333;}
+.team-zixun{padding-top:3px;cursor: pointer;}
+.team-dengji{color:#999;font-size: 12px;margin-right:10px;}
+.team-quyu{font-size: 14px;color:#666;margin-bottom: 15px;}
+.team-biaoqian{height:20px;line-height:20px;font-size:12px;color:#333;text-align: center;margin-bottom: 15px;}
+.team-biaoqian li{width:70px;height:18px;float:left;border:1px solid #82d382;margin-right: 10px;border-radius: 5px;}
+.team-biaoqian .team-biaoqian2{border-color: #82c7d3;}
+.team-biaoqian .team-biaoqian3{border-color: #d38282;}
+.team-biaoqian .team-biaoqian4{border-color: #c582d3;}
+.team-yeji{font-size: 12px;color:#666;}
+.team-pingfen{width:200px;line-height: 160px;margin-left:80px;float: left;color:#c73619;font-size:12px;}
+.team-pingfen span{font-size:24px;}
+.team-phone{position: absolute;right:50px;top:70px;color:#333;}
+.team-phone span{font-size: 24px;color:;}
+.team-phone p{font-size: 12px;margin-top: 5px;}
+/**/
+.next{width:245px;height:25px;margin:50px auto;}
+.next a{display:block;width:60px;float:left;border:1px solid #e2e1e0;color:#333;font-size:12px;line-height: 25px;height:23px;text-align: center;margin-right:8px;}
+.next a:hover{border-color:#e14122;color:#e14122;}
+.next .next-num{width:25px;}

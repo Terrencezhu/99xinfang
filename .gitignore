@@ -1,0 +1,11 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.zip
+!.gitignore
+
+# thinkphp
+config.php
+conf
+upload

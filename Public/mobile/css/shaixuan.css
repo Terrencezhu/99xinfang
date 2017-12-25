@@ -1,0 +1,49 @@
+#shaixuan{width:100%;height:0.7rem;line-height: 0.7rem;margin-bottom:0.3rem;border-bottom:0.01rem solid #eee;background:#fff;}
+/*楼盘筛选窗口定位*/
+#shaixuan-fixed{width:7.5rem;height:100%;margin:auto;background:rgba(0,0,0,.5);position: fixed;z-index: 9999;top:0rem;left:0;right:0;bottom:0;display: none;}
+#shaixuan-back{width:100%;height:100%;position: absolute;top:0;right:0;bottom:0;left:0;}
+#shaixuan-box{width:100%;height:0.7rem;line-height: 0.7rem;margin:auto;position: absolute;top:0;left:0;border-bottom:0.01rem solid #eee;background:#fff;position: absolute;top:0rem;left:0;right:0;}
+.shaixuan-nav,.shaixuan-navs{width:25%;font-size: 0.28rem;color:#333;float: left;text-indent:0.4rem;}
+.shaixuan-arrow{display:inline-block;width:0.24rem;height:0.15rem;}
+.shaixuan-list{width:100%;height:auto;background: #fff;position:absolute;top:0.7rem;left:0;z-index:100;display: none;}
+.sxlist-top{width:100%;height:0.16rem;background: #f7f7f7;}
+.sxlist-top img{display: none;}
+/*区域*/
+.sxlist-title,.sxlist-shi,.sxlist-xian{float:left;}
+.sxlist-title,.sxlist-jiage{width:25%;}
+.sxlist-shi,.sxlist-xian{width:70%;border-left:0.01rem solid #eee;}
+.sxlist-tag,.sxlist-huxing{width:100%;height:0.86rem;line-height: 0.86rem;font-size: 0.26rem;color:#333;text-indent: 0.4rem;border-bottom:0.01rem solid #eee;}
+.sxlist-huxing{text-indent: 0.2rem;}
+.sxlist-title .sxlist-tag{color:#f0521a;}
+.xianqu-list{display: none;}
+/*价格*/
+.sxlist-jiage,.sxlist-danjia{float:left;}
+.sxlist-jiage div:first-child{color:#f0521a;}
+.sxlist-danjia{width:70%;border-left:0.01rem solid #eee;float:left;display: none;}
+#sxlist-dingyi{width:100%;height:0.6rem;line-height:0.6rem;padding:0.2rem 0;text-align: center;background: #f7f7f7;clear: both;position: relative;}
+#sxlist-dingyi span{font-size:0.26rem;color:#333;}
+#sxlist-dingyi input[type="text"]{width:1.6rem;height:0.58rem;border:0.01rem solid #eee;font-size: 0.26rem;color:#333;text-indent: 0.26rem;}
+#sxlist-dingyi input[type="submit"]{width:1.6rem;height:0.6rem;position: absolute;top:0.2rem;right:0.3rem;opacity: 0;}
+.dingyi-queding{display:inline-block;width:1.4rem;height:0.6rem;background:#f65f40;color:#fff;font-size: 0.26rem;border-radius: 0.06rem;margin-left: 0.1rem;}
+/*更多*/
+.gengduo-title{padding:0.1rem;font-size:0.28rem;color:#666;}
+.tag-box{width:7.1rem;margin:auto;overflow: hidden;border-bottom:0.01rem solid #eee;}
+.zhaofang-title{width:7.1rem;margin:0.3rem auto;font-size:0.28rem;color:#999;}
+.zhaofang-titleb{color:#333;}
+.zhaofang-tag{width:2.18rem;height:0.54rem;line-height:0.54rem;border:0.01rem solid #eee;position: relative;text-align: center;font-size: 0.26rem;
+		margin-right:0.22rem;margin-bottom:0.26rem;float:left;border-radius: 0.06rem;color:#333;}
+.tag-box div:last-child{margin-right: 0;}		
+.zhaofang-tag input[type="radio"]{width:0.54rem;height:0.54rem;margin:0 auto;position: absolute;top:0;right:0;bottom:0;left:0;opacity: 0;}
+.gengduo-bottom{text-align: center;font-size:0.26rem;padding:0.3rem 0;position: relative;}
+#tag-chongzhi{display:inline-block;width:3.2rem;height:0.68rem;margin-right:0.7rem;vertical-align:middle;border:0.01rem solid #f65f40;color:#f65f40;border-radius: 0.06rem;}
+.gengduo-queding{display:inline-block;width:3.2rem;height:0.68rem;color:#fff;background:#f65f40;font-size:0.26rem;border-radius: 0.06rem;}
+.gengduo-bottom input[type="submit"]{width:3.2rem;height:0.7rem;position: absolute;top:0.24rem;right:0.2rem;opacity: 0;}
+
+
+
+
+
+
+
+
+

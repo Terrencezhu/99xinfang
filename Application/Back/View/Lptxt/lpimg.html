@@ -1,0 +1,85 @@
+<extend name="Layout/Back"  />
+<block name="content">
+		<div id="right">
+			<div class="right-list">
+				<div class="admin-title">楼盘区域</div>
+				<form action="__MODULE__/Lptxt/lpimg" enctype="multipart/form-data" method="post">
+						<ul class="quyu">
+							<li>&nbsp;楼盘名称
+								<select name="houselist_id" id="houselist_id">
+								  	<option value="0">请选择楼盘</option>
+								  <volist name="houselist_name" id="vo">
+									<option value="<{$vo.house_id}>"><{$vo.house_name}></option>
+								  </volist>
+								</select>
+							</li>
+						</ul>
+					
+						<ul class="img_class">
+							<li>&nbsp;图片类型
+								<select name="img_class">
+								  	<option value="0">请选择类型</option>
+									<option value="xgt">效果图</option>
+									<option value="sjt">实景图</option>
+									<option value="ybj">样板间</option>
+									<option value="ght">规划图</option>
+									<option value="ptt">周边配套实景图</option>
+									<option value="face">封面图</option>
+								</select>
+							</li>
+						</ul>
+					<div class="admin-title"></div>
+					<div class="admin-title">请添加</div>
+					<div class="file-box">
+						<input type="file" multiple="multiple" id="inputs" name="photo[]" />
+					</div>
+<!-- 					<div class="admin-title">楼盘实景图</div>
+					<div class="file-box">
+						<input type="file" multiple="multiple" id="inputs" value="<{$vo.house_id}>" name="sjt[]" />
+					</div>
+					<div class="admin-title">样板间</div>
+					<div class="file-box">
+						<input type="file" multiple="multiple" id="inputs" value="<{$vo.house_id}>" name="ybj[]" />
+					</div>
+					<div class="admin-title">规划图</div>
+					<div class="file-box">
+						<input type="file" multiple="multiple" id="inputs" value="<{$vo.house_id}>" name="ght[]" />
+					</div>
+					<div class="admin-title">周边配套实景图</div>
+					<div class="file-box">
+						<input type="file" multiple="multiple" id="inputs" value="<{$vo.house_id}>" name="ptt[]" />
+					</div>
+					<div class="admin-title"><h3>封面图（单独添加）</h3></div>
+					<div class="file-box">
+						<input type="file" id="inputs" value="<{$vo.house_id}>" name="face" />
+					</div> -->
+					<input type="submit" id="button" value="提交"/>
+				</form>
+			</div>
+		</div>
+		
+		<script src="__PUBLIC__/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
+		<script src="__PUBLIC__/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+		<script src="__PUBLIC__/jquery-file-upload/js/jquery.fileupload.js"></script>
+		<script>
+		var url = '{:U('Back/Lptxt/lpimg')}';
+		$('#jq_xgt').fileupload({
+			url: url,
+			dataType: 'json',
+			done: function(e, response) {
+				console.log(response);
+				if (response.result.error == '0') {
+					// 一旦上传成功，设置隐藏域的value
+					$('input[name=image]').eq(0).val(response.result.image);
+					$('input[name=image_thumb]').eq(0).val(response.result.image_thumb);
+
+					$('#img-image-thumb').attr('src', '__PUBLIC__/Thumb/Goods/' + response.result.image_thumb).show();
+				} else {
+					// 上传失败
+					alert('商品图像上传失败');
+				}
+			}
+		});
+		</script>
+
+</block>

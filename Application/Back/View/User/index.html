@@ -1,0 +1,27 @@
+<extend name="Layout/Back"  />
+<block name="content">
+		<div id="right">
+
+			<div class="right-list">
+				<div class="admin-title">咨询师信息</div>
+				<ul class="zhanghao-title">
+					<li>用户名</li>
+					<li>密码</li>
+					<li>部门</li>
+					<li>姓名</li>
+					<li>联系方式</li>
+					<li style="border:none;">管理</li>
+				</ul>
+			<volist name="userlist" id="o">
+				<ul class="zhanghao-list">
+					<li><{$o.name}></li>
+					<li>************</li>
+					<li><{$o.section}></li>
+					<li><{$o.username}></li>
+					<li><{$o.telphone}></li>
+					<li style="border: none;">删除</li>					
+				</ul>
+			</volist>	
+			</div>
+		</div>
+</block>

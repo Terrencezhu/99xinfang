@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>99新房网_帮您找房</title>
+    <script type="text/javascript" src="__PUBLIC__/mobile/js/yidong.js"></script>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/zhaofang.css" />
+</head>
+
+<body>
+    <!--顶部信息-->
+    <div id="top">
+        <a id="link-top" href="javascript:history.back(-1)">
+            <img src="__PUBLIC__/mobile/img/tubiao/link-top.png" alt="" />
+        </a>
+        <a id="link-chongzhi">重置</a>
+        <span>帮您找房</span>
+    </div>
+    <div id="top-height"></div>
+    <!--banner-->
+    <div class="swiper-container" id="head">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="__PUBLIC__/mobile/img/banner/zhaofang01.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="__PUBLIC__/mobile/img/banner/zhaofang02.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="__PUBLIC__/mobile/img/banner/zhaofang03.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="__PUBLIC__/mobile/img/banner/zhaofang04.jpg" alt="" />
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--意向区域-->
+    <div class="zhaofang-title">意向区域（最多可选择三个区域）</div>
+    <form class="tag-box" id="zhaofang-quyu" action="">
+        <div class="zhaofang-tag">湖州
+            <input type="checkbox" name="quyu" value="湖州" />
+        </div>
+        <div class="zhaofang-tag">海宁
+            <input type="checkbox" name="quyu" value="海宁" />
+        </div>
+        <div class="zhaofang-tag">海盐
+            <input type="checkbox" name="quyu" value="海盐" />
+        </div>
+        <div class="zhaofang-tag">嘉善
+            <input type="checkbox" name="quyu" value="嘉善" />
+        </div>
+        <div class="zhaofang-tag">南湖
+            <input type="checkbox" name="quyu" value="南湖" />
+        </div>
+        <div class="zhaofang-tag">平湖
+            <input type="checkbox" name="quyu" value="平湖" />
+        </div>
+        <div class="zhaofang-tag">桐乡
+            <input type="checkbox" name="quyu" value="桐乡" />
+        </div>
+        <div class="zhaofang-tag">秀洲
+            <input type="checkbox" name="quyu" value="秀洲" />
+        </div>
+        <div class="zhaofang-tag">宁波
+            <input type="checkbox" name="quyu" value="宁波" />
+        </div>
+        <div class="zhaofang-tag">南通
+            <input type="checkbox" name="quyu" value="无锡" />
+        </div>
+    </form>
+    <!--意向区县-->
+    <!--<div class="zhaofang-title">意向区县（可多选）</div>-->
+    <!--嘉兴县区-->
+    <!--<form class="tag-box tag-quxian" id="jiaxing" action="">
+			<div class="zhaofang-tag">秀洲区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">南湖区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">嘉善县<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">平湖市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">海盐县<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">海宁市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">桐乡市<input type="checkbox" name="xianqu" value=""/></div>
+		</form>-->
+    <!--无锡县区-->
+    <!--<form class="tag-box tag-quxian" id="jiaxing" action="">
+			<div class="zhaofang-tag">梁溪区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">滨湖区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">惠山区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">锡山区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">江阴市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">宜兴市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">新吴区<input type="checkbox" name="xianqu" value=""/></div>
+		</form>-->
+    <!--宁波县区-->
+    <!--<form class="tag-box tag-quxian" id="jiaxing" action="">
+			<div class="zhaofang-tag">海曙区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">江北区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">北仑区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">镇海区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">鄞州区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">奉化区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">慈溪市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">象山县<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">宁海县<input type="checkbox" name="xianqu" value=""/></div>
+		</form>-->
+    <!--南通区-->
+    <!--<form class="tag-box tag-quxian" id="jiaxing" action="">
+			<div class="zhaofang-tag">崇川区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">港闸区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">通州区<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">海安县<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">如皋市<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">如东县<input type="checkbox" name="xianqu" value=""/></div>
+			<div class="zhaofang-tag">海门市<input type="checkbox" name="xianqu" value=""/></div>
+		</form>-->
+    <!--房屋类型-->
+    <div class="zhaofang-title">房屋类型</div>
+    <form class="tag-box" id="zhaofang-leixing" action="">
+        <div class="zhaofang-tag">住宅
+            <input type="radio" name="leixing" value="住宅" />
+        </div>
+        <div class="zhaofang-tag">公寓
+            <input type="radio" name="leixing" value="公寓" />
+        </div>
+        <div class="zhaofang-tag">洋房
+            <input type="radio" name="leixing" value="洋房" />
+        </div>
+        <div class="zhaofang-tag">商铺/写字楼
+            <input type="radio" name="leixing" value="商铺" />
+        </div>
+        <div class="zhaofang-tag">别墅
+            <input type="radio" name="leixing" value="别墅" />
+        </div>
+        <div class="zhaofang-tag">不限
+            <input type="radio" name="leixing" value="不限" />
+        </div>
+    </form>
+    <!--意向户型-->
+    <div class="zhaofang-title">意向户型</div>
+    <form class="tag-box" id="zhaofang-huxing" action="">
+        <div class="zhaofang-tag">一房
+            <input type="radio" name="huxing" value="一房" />
+        </div>
+        <div class="zhaofang-tag">二房
+            <input type="radio" name="huxing" value="二房" />
+        </div>
+        <div class="zhaofang-tag">三房
+            <input type="radio" name="huxing" value="三房" />
+        </div>
+        <div class="zhaofang-tag">四房
+            <input type="radio" name="huxing" value="四房" />
+        </div>
+        <div class="zhaofang-tag">五房以上
+            <input type="radio" name="huxing" value="五房" />
+        </div>
+        <div class="zhaofang-tag">不限
+            <input type="radio" name="huxing" value="不限" />
+        </div>
+    </form>
+    <!--购房预算-->
+    <div class="zhaofang-title">购房预算</div>
+    <form class="tag-box" id="zhaofang-yusuan" action="">
+        <div class="zhaofang-tag">50万以下
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">50-80万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">80-100万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">100-150万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">150-200万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">200-300万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+        <div class="zhaofang-tag">150-200万
+            <input type="radio" name="yusuan" value="" />
+        </div>
+    </form>
+    <!--购房预算-->
+    <div class="zhaofang-title zhaofang-titleb">联系方式</div>
+    <form class="box-width" id="zhaofang-tijiao" action="" method="post">
+        <input type="text" placeholder="您的姓名" id="" value="" />
+        <input type="text" placeholder="您的联系方式" id="" value="" />
+        <input type="submit" name="" id="" value="确定" />
+        <div class="tijiao-bottom">99新房置业顾问将尽快与您取得联系，根据您的意向为您推荐相关楼盘。</div>
+    </form>
+    <div class="bottom-hieght"></div>
+    <div class="bottom-hieght"></div>
+    <!--右侧搜索-->
+    <!--<a class="fixed-sousuo" href="sousuo.html"><img src="__PUBLIC__/mobile/img/tubiao/sousuo.png" alt="" /></a>-->
+    <!--底部固定窗口-->
+    <div id="bottom-fixed">
+        <a>
+            <span>
+                <img src="__PUBLIC__/mobile/img/tubiao/sousuo-01.png" alt="" />
+            </span>帮您找房</a>
+        <a>
+            <span>
+                <img src="__PUBLIC__/mobile/img/tubiao/zixun.png" alt="" />
+            </span>在线咨询</a>
+        <a href="tel:111111111">
+            <span>
+                <img src="__PUBLIC__/mobile/img/tubiao/tel.png" alt="" />
+            </span>售楼热线</a>
+    </div>
+    <script src="__PUBLIC__/mobile/js/zhaofang.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="__PUBLIC__/mobile/js/swiper.min.js"></script>
+</body>
+
+</html>

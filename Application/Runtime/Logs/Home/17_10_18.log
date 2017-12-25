@@ -1,0 +1,686 @@
+[ 2017-10-18T09:41:07+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0060s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-10-18T09:41:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:41:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:41:58+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:12+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:13+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:42:16+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:17+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:20+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:42:21+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:22+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:24+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:42:25+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:28+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:34+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:39+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:40+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:42:42+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:43+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:44+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:42:45+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:45:14+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '20' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '20' AND `img_face` = 1  [ RunTime:0.0050s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '20'  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:46:38+08:00 ] 127.0.0.1 /index.php/News/newtext
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:46:45+08:00 ] 127.0.0.1 /index.php/News/newtext
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:47:19+08:00 ] 127.0.0.1 /index.php/Loupan/detail?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php 第 12 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = null LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = null AND `img_face` = 1  [ RunTime:0.0060s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = null  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 882 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 883 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 882 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 883 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:47:27+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0060s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:48:08+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0050s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:48:13+08:00 ] 127.0.0.1 /index.php/Loupan/detail?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php 第 12 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = null LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = null AND `img_face` = 1  [ RunTime:0.0050s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = null  [ RunTime:0.0050s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 882 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 883 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 882 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 883 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:50:33+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T09:50:58+08:00 ] 127.0.0.1 /left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T09:50:59+08:00 ] 127.0.0.1 /Public/houtaiimg/houtaiimg/left-li.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T15:14:10+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T15:23:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T15:23:27+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0070s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0070s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-18T15:24:03+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 15 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 24 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0050s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0060s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0060s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-18T15:24:14+08:00 ] 127.0.0.1 /index.php/Loupan/baoming
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 151 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 152 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 153 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 163 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 164 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 165 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 166 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 167 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 168 行.
+NOTIC: [8] Undefined index: house_id E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\06ab4f79733531e762714ee92aa20ff6.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

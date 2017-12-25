@@ -1,0 +1,53 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>99新房管理登录系统</title>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>
+		<style>
+			body{margin:0;padding:0;font-family: "微软雅黑";}
+			img{border:none;}
+			#boy-img{width:100%;position: relative;text-align: center;}
+			.img-bacground,.img-bacground img{width:100%;height:100%;}
+			.img-position{position: absolute;width:700px;height:55px;margin:auto;top:15%;left:0;right:0;}
+			#body-content{width:413px;height:291px;margin:auto;position: absolute;top:0;left:0;right:0;bottom:0;background: rgba(255,255,255,.3);border-radius:10px;box-shadow:0 0 3px #9a9a9a;}
+			#title{padding:25px 0 15px;color:#fff;font-weight: bold;font-size: 22px;text-align: center;}
+			input{outline: none;width:230px;height:20px;}
+			#body-content div{margin-bottom: 20px;}
+			.body-input{margin-left: 45px;color:#fff;font-size:16px;font-weight: bold;}
+			.body-input span{letter-spacing: 16px;}
+			#baojing{text-align: center;color:red;font-size: 12px;height:20px;line-height: 20px;}
+			#button{width:90px;height: 35px;margin-left:150px;color:#fff;background:#28869c;text-align: center;border-radius: 5px;border: none;cursor: pointer;font-size: 16px;}
+		</style>
+	</head>
+	<body>
+		<div class="body-img">
+			<div class="img-bacground">
+				<img src="/Public/houtaiimg/body-img.jpg" alt="" />
+			</div>
+			<img class="img-position" src="/Public/houtaiimg/title.png" alt="" />
+			<div id="body-content">
+				<div id="title">用户登录</div>
+				<form action="/back.php/Login/check" method="post">
+					<div class="body-input">用户名：<input type="text" name="name"/></div>
+					<div class="body-input"><span>密</span>码：<input type="password" name="password"/></div>
+					<div id="baojing"><!--用户名或密码错误！！！--></div>
+					<input type="submit" onclick="nulls()" name="" id="button" value="登录" />
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript">
+			 $("body").height($(window).height());//
+			 $("#body-img").height($(window).height());//
+			 var inputs=$("input");
+			 function nulls(){
+			 	for(var g=0;g<inputs.length;g++){
+			 		if(inputs[g].value.length==0){
+			 			alert("请输入用户名或密码");
+			 			return;
+			 		}
+			 	}
+			 }
+		</script>
+	</body>
+</html>

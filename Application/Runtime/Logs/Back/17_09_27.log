@@ -1,0 +1,2394 @@
+[ 2017-09-27T09:32:55+08:00 ] 127.0.0.1 /back.php/Admin/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T09:32:58+08:00 ] 127.0.0.1 /back.php/Login/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T09:33:02+08:00 ] 127.0.0.1 /back.php/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_power` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_power` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T09:33:04+08:00 ] 127.0.0.1 /back.php/Admin/adminlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:23:09+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:23:15+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0050s ]
+
+[ 2017-09-27T10:23:17+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0050s ]
+
+[ 2017-09-27T10:29:18+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('新西塘孔雀城','环西南路东侧，子胥路西侧，纬一路南侧','普通住宅','塔楼、高层','嘉兴京御房地产开发有限公司','嘉兴-嘉善','134.85万元','217万元','15500元/㎡','50万元','联系销售','2016-12-01','2018-10-01','140㎡','87㎡','70年','幸福基业物业服务有限公司','2元/平米/月','无','暂无','1.40','毛坯','30%','在售','3') [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:29:19+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:29:25+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:31:01+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64d47a7.png') [ RunTime:0.0080s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64d7687.png') [ RunTime:0.3050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64d8627.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64d99af.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64da94f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64dbcd7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64dcc77.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64dd82f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64de3e7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','xgt','2017-09-27/59cb0d64df387.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64dfb57.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64e070f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64e0edf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64e1e7f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64e2a37.png') [ RunTime:0.0070s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','sjt','2017-09-27/59cb0d64e35ef.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','ybj','2017-09-27/59cb0d64e41a7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','ybj','2017-09-27/59cb0d64e4d5f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','ybj','2017-09-27/59cb0d64e5cff.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','ybj','2017-09-27/59cb0d64e68b7.png') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T10:31:02+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T10:42:14+08:00 ] 127.0.0.1 /back.php/Admin/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T10:42:17+08:00 ] 127.0.0.1 /back.php/Login/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:42:22+08:00 ] 127.0.0.1 /back.php/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_power` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_power` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:42:23+08:00 ] 127.0.0.1 /back.php/Admin/adminlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:42:31+08:00 ] 127.0.0.1 /back.php/Lptxt/lphxt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:43:08+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T10:43:37+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0050s ]
+
+[ 2017-09-27T10:43:38+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0060s ]
+
+[ 2017-09-27T10:47:07+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('广益大厦','嘉兴市南湖区亚欧路与亚美路交叉口','商住两用','板楼、多层','嘉兴市翔鸿置业有限公司','嘉兴-南湖区','47.3万元','107.8万元','11000元/㎡','30万元','联系客服','2017-04-26','2017-08-02','98㎡','43㎡','40年','远扬物业','1.2元/平米/月','无','车位配比1:1','1.30','精装修','35%','在售','2') [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:47:08+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:47:11+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T10:52:13+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','xgt','2017-09-27/59cb125cd66e7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','xgt','2017-09-27/59cb125cd7e57.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','xgt','2017-09-27/59cb125ce3207.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','xgt','2017-09-27/59cb125ce4977.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','xgt','2017-09-27/59cb125ce5917.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ce6c9f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ce8027.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ce8fc7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ce9f67.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ceaf07.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cebea7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cece47.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cedde7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125ceed87.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cf010f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cf10af.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cf204f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cf2c07.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','sjt','2017-09-27/59cb125cf3ba7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('19','ybj','2017-09-27/59cb125d0051f.png') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:52:14+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:55:22+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('18','face','2017-09-27/59cb131a16897.jpg') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:55:23+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:56:53+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('1','face','2017-09-27/59cb13758427f.jpg') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T10:56:54+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:00:00+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:00:17+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:00:48+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0050s ]
+
+[ 2017-09-27T11:00:50+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0060s ]
+
+[ 2017-09-27T11:05:04+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:05:07+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:05:24+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: city_id E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 196 行.
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`) VALUES ('长虹春天','虹桥路迎宾路路口','普通住宅','板楼、多层、小高层','嘉兴吉恩仕置业有限公司','嘉兴-秀洲区','97.9万元','139.7万元','11000元/㎡','30万元','联系客服','2017-04-01','2017-06-01','127㎡','89㎡','70年','浙江开元物业管理有限公司','1.2元/平米/月','无','共600个车位','1.80','毛坯','33.70%','在售') [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:05:25+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:05:29+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:05:30+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:08:29+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:31+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:31+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:32+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:32+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:32+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:08:35+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:09:48+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4a3ef.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4afa7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4bb5f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4c717.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4d2cf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c4da9f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c528bf.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','xgt','2017-09-27/59cb167c5385f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','sjt','2017-09-27/59cb167c54417.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','sjt','2017-09-27/59cb167c54fcf.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','sjt','2017-09-27/59cb167c55b87.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','sjt','2017-09-27/59cb167c5673f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c572f7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c58297.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c58e4f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c59a07.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c5a5bf.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c5b177.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c5bd2f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','ybj','2017-09-27/59cb167c5c8e7.png') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:09:49+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:09:59+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('20','face','2017-09-27/59cb16871217f.jpg') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:10:00+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:14:51+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:15:42+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:15:44+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0060s ]
+
+[ 2017-09-27T11:15:46+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0070s ]
+
+[ 2017-09-27T11:18:30+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('广益大厦','嘉兴市南湖区亚欧路与亚美路交叉口','商住两用','板楼、多层','嘉兴市翔鸿置业有限公司','嘉兴-南湖区','47.3万元','107.8万元','11000元/㎡','30万元','联系客服','2017-04-26','2017-05-01','98㎡','43㎡','40年','远扬物业','1.2元/平米/月','无','车位配比1:1','1.30','精装修','35%','在售','2') [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:18:31+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:18:33+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:19:21+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','xgt','2017-09-27/59cb18b94afa7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','xgt','2017-09-27/59cb18b94bb5f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','xgt','2017-09-27/59cb18b94c717.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','xgt','2017-09-27/59cb18b94d6b7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','xgt','2017-09-27/59cb18b94e657.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b952ca7.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b95385f.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b954417.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b954fcf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b955f6f.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b956b27.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b9576df.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b958297.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b959237.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b959def.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b95a9a7.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b95b177.png') [ RunTime:0.0040s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b95bd2f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','sjt','2017-09-27/59cb18b95c8e7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','ybj','2017-09-27/59cb18b95d49f.png') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:19:22+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:19:32+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('21','face','2017-09-27/59cb18c435bcf.jpg') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:19:33+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:19:53+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:20:58+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:21:39+08:00 ] 127.0.0.1 /back.php/Admin/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:21:42+08:00 ] 127.0.0.1 /back.php/Login/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:21:51+08:00 ] 127.0.0.1 /back.php/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_power` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_power` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:21:52+08:00 ] 127.0.0.1 /back.php/Admin/adminlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:22:26+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:22:29+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0070s ]
+
+[ 2017-09-27T11:22:34+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 12 AND `level` = 3  [ RunTime:0.0070s ]
+
+[ 2017-09-27T11:24:55+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0060s ]
+
+[ 2017-09-27T11:27:21+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('卡森卫星城','海宁市海云路一号','普通住宅、花园洋房','塔楼、板塔结合、多层','海宁卡森地产有限公司','嘉兴-海宁','73.04万元','123.5万元','8300~9500元/㎡','50万元','联系客服','2017-04-01','2017-05-01','130㎡','88㎡','70年','浙江绿城物业管理有限公司','1.7元/平米/月','无','暂无资料','1.80','毛坯','30%','在售','6') [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:27:22+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:27:25+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:28:13+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd02397.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd03eef.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd05277.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd098c7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd0ac4f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd0c3bf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd0db2f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd0eeb7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','xgt','2017-09-27/59cb1acd10627.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd11d97.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd1311f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd1488f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd1582f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd167cf.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd1776f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd1870f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd18edf.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','sjt','2017-09-27/59cb1acd19e7f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','ybj','2017-09-27/59cb1acd1aa37.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','ybj','2017-09-27/59cb1acd1b9d7.png') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-27T11:28:14+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:28:24+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('22','face','2017-09-27/59cb1ad8b6667.png') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:28:25+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:33:34+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:33:36+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0050s ]
+
+[ 2017-09-27T11:33:37+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 9 AND `level` = 3  [ RunTime:0.0050s ]
+
+[ 2017-09-27T11:36:02+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('龙庭花园','龙山大道与创新路交叉口','普通住宅','板楼、高层','江阴市安业置业有限公司','无锡-江阴','72万元','114.4万元','8000~9000元/㎡','30万元','联系客服','2017-04-01','2017-09-20','143㎡','90㎡','70年','深圳深华物业有限公司','2.3元/平米/月','无','共586个车位','2.00','毛坯','26%','在售','10') [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:36:03+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:36:06+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:36:55+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','xgt','2017-09-27/59cb1cd6e313f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','xgt','2017-09-27/59cb1cd6e44c7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','xgt','2017-09-27/59cb1cd6e9ab7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','xgt','2017-09-27/59cb1cd6ea66f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','xgt','2017-09-27/59cb1cd6eb227.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','sjt','2017-09-27/59cb1cd6ec1c7.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','sjt','2017-09-27/59cb1cd6ed167.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','sjt','2017-09-27/59cb1cd6ee107.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','sjt','2017-09-27/59cb1cd6eecbf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6ef877.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6f0817.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6f13cf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6f236f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6f2f27.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd6f3ec7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ybj','2017-09-27/59cb1cd70083f.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ght','2017-09-27/59cb1cd7017df.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ght','2017-09-27/59cb1cd702397.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ptt','2017-09-27/59cb1cd703337.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','ptt','2017-09-27/59cb1cd7042d7.png') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:36:56+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-27T11:37:04+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('23','face','2017-09-27/59cb1ce035fb7.png') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:37:05+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:42:27+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:42:29+08:00 ] 127.0.0.1 /back.php/Lptxt/get_city?province_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1 AND `level` = 2  [ RunTime:0.0060s ]
+
+[ 2017-09-27T11:42:31+08:00 ] 127.0.0.1 /back.php/Lptxt/get_district?city_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2 AND `level` = 3  [ RunTime:0.0060s ]
+
+[ 2017-09-27T11:45:00+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_info` (`house_name`,`house_address`,`wuye_type`,`build_type`,`developer`,`dili`,`mix_price`,`max_price`,`junjia`,`shoufu`,`youhuixinxi`,`first_time`,`last_time`,`max_mianji`,`mix_mianji`,`property_right`,`wuye`,`wuye_price`,`gongnuan`,`car`,`rongjilv`,`decorate`,`green`,`xiaoshou_zt`,`region_id`) VALUES ('万城理想公馆','海宁市双联路与硖仲路交汇处','普通住宅','塔楼、高层、洋房','海宁万城房产有限公司','嘉兴-海宁','112.7万元','148.35万元','11500元/㎡','50万元','联系客服','2017-06-18','2019-10-01','129㎡','98㎡','70年','海宁万城物业服务有限公司','2元/平米/月','无','车位配比1:1','1.80','毛坯','30.4%','在售','6') [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:45:01+08:00 ] 127.0.0.1 /back.php/Lptxt/lpadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 0  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: city_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 95 行.
+NOTIC: [8] Undefined variable: dis_list E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Back\19453ba9308e5a4bbaaa689bebcdebf0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:45:04+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:45:50+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0070s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','xgt','2017-09-27/59cb1eeea222f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','xgt','2017-09-27/59cb1eeea399f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','xgt','2017-09-27/59cb1eeea4d27.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','xgt','2017-09-27/59cb1eeea6497.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','xgt','2017-09-27/59cb1eeeaaae7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','sjt','2017-09-27/59cb1eeeaba87.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','sjt','2017-09-27/59cb1eeeace0f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','sjt','2017-09-27/59cb1eeeaddaf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','sjt','2017-09-27/59cb1eeeaf137.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb00d7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb1077.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb2017.png') [ RunTime:0.0060s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb339f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb433f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb4ef7.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ybj','2017-09-27/59cb1eeeb5aaf.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ght','2017-09-27/59cb1eeeb6a4f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ght','2017-09-27/59cb1eeeb721f.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ptt','2017-09-27/59cb1eeeb79ef.png') [ RunTime:0.0050s ]
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','ptt','2017-09-27/59cb1eeeb85a7.png') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:45:51+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0060s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-27T11:46:00+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: savePath E:\phpStudy\WWW\99xinfang\Application\Back\Controller\LptxtController.class.php 第 255 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `house_image` (`house_id`,`img_class`,`image`) VALUES ('24','face','2017-09-27/59cb1ef81b207.png') [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-27T11:46:01+08:00 ] 127.0.0.1 /back.php/Lptxt/lpimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

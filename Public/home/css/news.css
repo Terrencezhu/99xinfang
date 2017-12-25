@@ -1,0 +1,107 @@
+#banner{height:500px;}
+#news-head{width:1100px;height:10px;margin:auto;position: absolute;top:0;left:0;right:0;}
+.news-head-right{width:332px;height:432px;background:rgba(255,255,255,.7);}
+#news-head form{position: absolute;top:30px;right:0;}
+.news-head-top{text-align: center;line-height:30px;font-size:18px;color:#666;padding:40px 0 40px;}
+.news-head-right div{width:250px;height:auto;margin:0 auto 22px;}
+.news-head-right input[type="text"]{width:248px;height:30px;line-height:30px;border:0;font-size: 14px;color:#999;text-indent: 14px;border-radius: 4px;}
+#news-submit{width:248px;height:40px;background:#e14122;font-size:16px;border-radius: 4px;}
+/*搜索*/
+.sousuo-box{width:100%;height:40px;background:#f5f5f5;padding:20px 0;}
+.sousuo-box .form-box{width:470px;height:100%;float: left;}
+.sousuo-box .input-text,.sousuo-box .span-text{width:388px;height:38px;line-height: 38px;text-indent: 10px;font-size: 14px;}
+.sousuo-box .input-submit,.sousuo-box .span-submit{width:80px;height:40px;line-height: 40px;font-size: 16px;}
+.sousuo-box .span-submit span{vertical-align: middle;}
+.sousuo-right{width:580px;float:left;padding-top:10px;}
+.sousuo-tag{display:inline-block;padding-left:40px;font-size: 14px;color:#666;}
+.sousuo-tag:hover{color:#e14122;}
+/*conter*/
+.center{position: relative;}
+/*news-left*/
+.news-left{width:690px;height:auto;}
+/*news-nav*/
+.news-nav{width:690px;height:50px;border-bottom:1px solid #e2e1e0;line-height: 50px;padding-top:30px;}
+.news-nav-li{width:25%;text-align: center;height:100%;float:left;}
+.news-na{display:block;width:100px;height:100%;margin:auto;color:#333;font-weight: bold;font-size: 16px;border-width:0;border-style: solid;border-color:#e14122;}
+.news-na:hover{border-bottom-width:1px;color:#e14122;}
+/*news-list*/
+.news-list-box{height:auto;margin:30px 0 0px;display:none;}
+.news-list{width:100%;height:205px;margin-bottom:30px;}
+.news-list-img{display:block;width:300px;height:100%;float:left;}
+.news-list-img img{width:100%;height:100%;}
+.news-list-right{width:370px;height:100%;float:right;}
+.news-list-title{display:block;color:#333;font-size:16px;font-weight: bold;padding:10px 0 35px;}
+.news-list-title span{color:#e14122;}
+.news-list-time{font-size:12px;color:#999;padding-bottom:5px;border-bottom:1px solid #e2e1e0;}
+.news-list-text{width:90%;font-size:12px;color:#999;margin:22px 0;}
+.news-list-button{display: block;width:145px;height:30px;line-height:30px;text-align: center;color:#333;font-size:14px;border:1px solid #e2e1e0;border-radius: 5px;}
+.news-list-button:hover{background:#e14122;color:#fff;border:none;border:1px solid #e14122;}
+/*右侧推荐news-tuijian*/
+.tuijian{width:330px;padding-top:30px;position: absolute;top:0;right:0 ;}
+.tuijian-width{width:290px;margin:auto;}
+.tuijian-title{font-size: 16px;color:#333;font-weight:bold;height:50px;border-bottom: 1px solid #e2e1e0;}
+.tuijian-title span{display: inline-block;line-height:48px;border-bottom:2px solid #e2e1e0;}
+/*买房必读*/
+#bidu,#rewen,#loupan,#zhuanti{width:100%;height:auto;border:1px solid #e2e1e0;margin-bottom: 30px;}
+.bidu-img{display:block;height:190px;margin:30px auto 20px;}
+.bidu-img img,.rewen-img img,.loupan-img img{width:100%;height:100%;}
+.bidu-list{margin-bottom: 20px;}
+.bidu-list li{margin-bottom:10px;}
+.bidi-text{display:block;font-size: 14px;color:#333;}
+.bidu-num{display:inline-block;width:16px;height:16px;line-height: 16px;background: #e14122;text-align: center;color:#fff;font-size: 14px;margin-right: 5px;}
+.bidi-text:hover,.rewen-text:hover,.loupan-name:hover{color:#e14122;}
+/**/
+#bidu .news-head-right{width:100%;height:380px;}
+#bidu .news-head-right input[type="text"]{border:1px solid #e2e1e0;}
+#bidu .news-head-top{padding:20px 0;}
+/*精选热文*/
+.rewen-list,.loupan-list{height:90px;padding:20px 0;border-bottom: 1px dashed #e2e1e0;}
+.rewen-img,.loupan-img{display: block;width:140px;height:90px;float:left;margin-right: 20px;}
+.rewen-body,.loupan-body{width:130px;height:90px;float:left;}
+.rewen-text{display:block;width:130px;height:60px;font-size: 14px;color:#333;margin-bottom:14px;overflow:hidden;text-overflow:ellipsis;}
+.rewen-time{font-size: 12px;color:#999;}
+/**/
+.rewen-tag{display: inline-block;text-align: center;height:26px;line-height:26px;font-size:14px;margin-left: 20px;margin-top: 20px;border-radius: 4px;}
+/*房产知识专题*/
+#zhuanti a{display: block;}
+.zhuanti-title{width:100%;height:auto;font-size: 14px;color:#333;margin-top: 14px;}
+.zhuanti-img{width:60px;height:60px;float:left;padding-top: 2px;}
+.zhuanti-img img{width:100%;height:100%;}
+.zhuanti-content{width:100%;height:65px;display: none;margin-top: 14px;}
+.zhuanti-body{width:210px;float: right;}
+.zhuanti-titles{font-size: 14px;font-weight: bold;color:#333;margin-bottom: 5px;}
+.zhuanti-titles:hover{color:#e14122;}
+.zhuanti-text{font-size: 12px;color:#999;}
+.zhuanti-text span{color:#e14122;}
+/*精品楼盘推荐*/
+.loupan-name{display:block;font-size:14px;color:#333;}
+.loupan-quyu{font-size: 12px;color:#333;}
+.loupan-jiage{font-size: 12px;color:#e14122;}
+.loupan-button{display: block;background:#e14122;width:70px;height:20px;line-height:20px;text-align: center;font-size: 12px;color:#fff;border-radius: 4px;}
+.loupan-name,.loupan-quyu,.loupan-jiage{margin-bottom: 5px;}
+#news-many{display: block;width:1100px;margin:0 auto 30px;height:40px;line-height:40px;text-align: center;color:#e14122;background: #f5f5f5;font-size: 16px;}
+/*分页*/
+.next{width:245px;height:25px;margin:50px auto;clear: both;}
+.next a{display:block;width:60px;float:left;border:1px solid #e2e1e0;color:#333;font-size:12px;line-height: 25px;height:23px;text-align: center;margin-right:8px;}
+.next a:hover{border-color:#e14122;color:#e14122;}
+.next .next-num{width:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

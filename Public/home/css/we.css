@@ -1,0 +1,34 @@
+#we-banner{width:100%;height:500px;}
+#banner-num{width:60px;}
+.we-title{font-size:24px;color:#333;margin-left: 20px;margin-bottom: 5px;padding-top: 30px;}
+.we-titles{font-size:18px;color:#666;margin-left: 20px;}
+.we-jianjie-box{margin-left: 20px;height:200px;margin-top: 40px;}
+.we-jianjie-box li{float: left;}
+.we-jianjie{width:640px;font-size:14px;color:#333;line-height: 25px;}
+.we-logo{width:400px;height:100%;margin-left: 30px;}
+.we-logo img{width:100%;height:100%;}
+/*we-team*/
+.we-team{width:100%;height:650px;overflow: hidden;padding-top: 40px;/*border:1px solid #000;*/}
+.we-team li{width:275px;float: left;text-align: center;font-size:18px;margin-bottom:60px;}
+.we-team li img{width:200px;height:200px;}
+.we-team-name{color:#000;padding:20px 0 5px;}
+.we-team li div{color:#e14122;}
+/*we-bottom*/
+.we-bottom{width:100%;height:280px;margin:40px auto;padding-top: 1px;}
+.we-bottom li{width:346px;height:250px;color:#fff;padding-top: 30px;float:left;}
+.we-bottom-img{background-image: url(../img/background.png);background-repeat: none;margin:0 auto 30px;}
+.we-address .we-bottom-img{width:45px;height:58px;background-position:-444px 0;}
+.we-phone .we-bottom-img{width:60px;height:58px;background-position:-516px 0;}
+.we-qq .we-bottom-img{width:54px;height:58px;background-position:-605px 0;}
+.we-bottom-title{font-size:18px;margin-bottom: 30px;text-align: center;}
+.we-bottom-text{font-size:14px;width:100%;margin:0 auto 15px;text-align: center;}
+.we-bottom li:hover{box-shadow: 0px 10px 15px rgba(0,0,0,.1);transform:translate3d(0,-2px,0);-webkit-transform:translate3d(0,-1px,0);}
+.we-address{background: #e14122;margin-right: 20px;}
+.we-phone{background: #33cccc;margin-right: 30px;}
+.we-qq{background: #33cc99;}
+.we-transition{transition: margin-top 1s;-moz-transition: margin-top 1s;-webkit-transition: margin-top 1s;-o-transition: margin-top 1s;}
+.we-transition:hover{margin-top: -11px;}
+
+
+
+

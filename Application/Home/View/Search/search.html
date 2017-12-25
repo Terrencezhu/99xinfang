@@ -1,0 +1,258 @@
+<extend name="Layout/Home"  />
+<block name="content">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/search.css"/>
+		<div id="banner">
+			<div id="index-banner" class="banner-box">
+				<div class="banner-img" style="display: block;"><img src="__PUBLIC__/home/img/banner/hot-banner1.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner2.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner3.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner4.jpg" alt="" /></div>
+				<div class="banner-img"><img src="__PUBLIC__/home/img/banner/hot-banner5.jpg" alt="" /></div>
+				<ul id="banner-num">
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li"></li>
+					<li class="banner-num-li" style="margin-right: 0;"></li>
+				</ul>
+				<div id="banner-left" onclick="bannerL()"><div></div></div>
+				<div id="banner-right" onclick="bannerR()"><div></div></div>
+			</div>
+		</div>
+		<div class="sousuo-box">
+			<div class="b-width">
+				<div class="form-box">
+					<span class="span-text"></span>
+					<span class="span-submit"><span></span>搜索</span>
+					<form class="input-box" action="__MODULE__/Search/search" method="get">
+						<input type="text" class="input-text" name="guanjianzi"  placeholder="请输入关键字（楼盘名/地名/开发商等）" value="请输入关键字（楼盘名/地名/开发商等）"/>
+						<input type="submit" class="input-submit" value="搜索"/>
+					</form>
+				</div>
+				<div class="sousuo-right">
+					<span></span>
+					<a class="sousuo-tag" href="__MODULE__/Loupan/detail?id=25">绿地长岛</a>
+					<a class="sousuo-tag" href="__MODULE__/Loupan/detail?id=5">中南君悦府</a>
+					<a class="sousuo-tag" href="__MODULE__/Loupan/detail?id=1">新西塘孔雀城</a>
+				</div>
+			</div>
+		</div>
+		<div class="center">
+			<div id="address"><i></i><a class="" href="index.html">99新房></a>楼盘查询</div>
+			<div class="title-index">为您筛选<span>/专业团队为您挑选优质房源</span></div>
+			<div class="youshi"><img src="__PUBLIC__/home/img/youshi-bj.jpg" alt="" /></div>
+			<div class="shaixuan-title">全部楼盘</div>
+			<form id="shaixuan" action="__MODULE__/Search/search" method="get">
+				<ul class="shaixuan-list shaixuan-quyu">
+					<div class="radio-head">楼盘区域：</div>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img0" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity0" checked="checked" type="radio" value="0" name="city"/><span class="radio-span0">不限</span></div>
+					</li>
+                                        <volist name="city_list" id="vo">
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img0" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+                                                <div class="radio-box"><input class="radio-opcity radio-opcity0" type="radio" value="<{$vo.region_id}>" name="city" <if condition="$vo.region_id eq $_GET['city'] ">checked="checked"</if>/><span class="radio-span0"><{$vo.region_name}></span></div>
+					</li>
+                                        </volist>                                        
+
+
+				</ul>
+				<ul class="shaixuan-city">
+					<li class="shaixuan-list-one">
+						<div class="radio-img radio-img-6" style="background:#c73619;"></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity-6" checked="checked" type="radio" value="0" name="price"/><span class="radio-span6">不限</span></div>
+					</li>
+                                        <volist name="next_city_list" id="vo">
+					<li>
+						<div class="radio-img radio-div radio-img-6"></div>
+                                                <div class="radio-box"><input class="radio-opcity radio-opcity-6" type="radio" value="<{$vo.region_id}>" name="next_city" <if condition="$vo.region_id eq $_GET['next_city'] ">checked="checked"</if>/><span class="radio-span6"><{$vo.region_name}></span></div>
+					</li>
+                                        </volist>
+			
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">楼盘价格：</div>
+					<li class="shaixuan-list-one">
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" checked="checked" type="radio" value="0" name="price"/><span class="radio-span1">不限</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" type="radio" value="1" name="price"/><span class="radio-span1">40万以下</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" type="radio" value="2" name="price"/><span class="radio-span1">40万-55万</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" type="radio" value="3" name="price"/><span class="radio-span1">55万-70万</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" type="radio" value="4" name="price"/><span class="radio-span1">70万-85万</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img1" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity1" type="radio" value="5" name="price"/><span class="radio-span1">100万以上</span></div>
+					</li>
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">楼盘类型：</div>
+					<li class="shaixuan-list-one">
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" checked="checked" value="0" name="lx"/><span class="radio-span2">不限</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" value="1" name="lx"/><span class="radio-span2">普通住宅</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" value="2" name="lx"/><span class="radio-span2">公寓</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" value="3" name="lx"/><span class="radio-span2">洋房</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" value="4" name="lx"/><span class="radio-span2">别墅</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img2" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity2" type="radio" value="5" name="lx"/><span class="radio-span2">商铺</span></div>
+					</li>
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">面积范围：</div>
+					<li class="shaixuan-list-one">
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" checked="checked" value="0" name="mj"/><span class="radio-span3">不限</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" value="1" name="mj"/><span class="radio-span3">60㎡以下</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" value="2" name="mj"/><span class="radio-span3">60㎡-90㎡</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" value="3" name="mj"/><span class="radio-span3">90㎡-120㎡</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" value="4" name="mj"/><span class="radio-span3">120㎡-150㎡</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img3" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity3" type="radio" value="5" name="mj"/><span class="radio-span3">150㎡以上</span></div>
+					</li>
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">销售类型：</div>
+					<li class="shaixuan-list-one">
+						<div class="radio-img"><img class="radio-imgs radio-img4" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity4" type="radio" checked="checked" value="0" name="xs"/><span class="radio-span4">不限</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img4" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity4" type="radio" value="1" name="xs"/><span class="radio-span4">在售</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img4" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity4" type="radio" value="2" name="xs"/><span class="radio-span4">待售</span></div>
+					</li>
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">建筑类型：</div>
+					<li class="shaixuan-list-one">
+						<div class="radio-img"><img class="radio-imgs radio-img5" src="__PUBLIC__/home/img/radios.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity5" type="radio" checked="checked" value="0" name="jz"/><span class="radio-span5">不限</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img5" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity5" type="radio" value="1" name="jz"/><span class="radio-span5">现房</span></div>
+					</li>
+					<li>
+						<div class="radio-img"><img class="radio-imgs radio-img5" src="__PUBLIC__/home/img/radio.png" alt=""/></div>
+						<div class="radio-box"><input class="radio-opcity radio-opcity5" type="radio" value="2" name="jz"/><span class="radio-span5">期房</span></div>
+					</li>
+				</ul>
+				<ul class="shaixuan-list">
+					<div class="radio-head">精准筛选：</div>
+					<form class="shaixuan-search">
+						<input type="text" name="" id="search-name" placeholder="请输入姓名" value="请输入姓名" />
+						<input type="text" name="" id="search-phone" placeholder="请输入手机号" value="请输入手机号" />
+						<input type="submit" name="" id="search-shaixuan" value="人工精准为您筛选" />
+					</form>
+				</ul>
+			</form>
+			<div class="title-index">所有楼盘<span>/总有一款适合您</span></div>
+			<!--排序控制-->
+			<ul id="paixu">
+				<p class="paixu-title">排序：</p>
+				<p class="paixu-inherit">默认</p>
+				<li class="paixu-tag">总价<img class="paixu-arrow" src="__PUBLIC__/home/img/jiang.png" alt="" /></li>
+				<li class="paixu-tag">单价<img class="paixu-arrow" src="__PUBLIC__/home/img/jiang.png" alt="" /></li>
+				<li class="paixu-tag">面积<img class="paixu-arrow" src="__PUBLIC__/home/img/jiang.png" alt="" /></li>
+				<li class="paixu-tag">最新<img class="paixu-arrow" src="__PUBLIC__/home/img/jiang.png" alt="" /></li>
+			</ul>	
+			<!--搜索展现列表-->
+			<volist name="list" id="vo">
+				<div class="zhanxian">
+					<div class="zhanxian-list">
+						<a class="zhanxian-left" href="__MODULE__/Loupan/detail?id=<{$vo.house_id}>" target="_blank"><img class="zhanxianimg" src="__ROOT__/Upload/lpimg/<{$vo.image}>" alt="" /></a>
+						<div class="zhanxian-right">
+							<a class="zhanxian-title" href="" target="_blank"><{$vo.house_name}></a>
+							<p class="zhanxian-xinxi">参考总价：<span>现房50% 期房40%</span></p>
+							<p class="zhanxian-xinxi">户型：<span><{$vo.mix_mianji}>㎡-<{$vo.max_mianji}>㎡</span></p>
+							<p class="zhanxian-xinxi">首付：<span>现房50% 期房40%</span></p>
+							<p class="zhanxian-xinxi">地址：<span><{$vo.dili}></span></p>
+							<ul class="zhanxian-tag"><li>产权<{$vo.property_right}>年</li><li><{$vo.xiaoshou_zt}></li><li><{$vo.decorate}></li><li>旅游地产</li></ul>
+							<div class="zhanxian-jiage">价格：<span><{$vo.junjia}>元/㎡</span></div>
+							<div class="zixun" onclick="doyoo.util.openChat('g=10059322');return false;">联系客服</div>
+						</div>
+					</div>
+				</div>
+			</volist>
+
+			<{$page}>
+			
+<!-- 			<div class="title-index">您可能感兴趣的楼盘</div>
+			<ul class="tuijian-list">
+			<volist name="list_house_info" id="vo">
+				<li class="tuijian-li">
+					<a class="tuijian-img" href="__MODULE__/Loupan/detail?id=<{$vo.house_id}>" target="_blank"><img class="fineimg" src="__ROOT__/Upload/lpimg/<{$vo.image}>" alt="" /></a>
+					<a class="tuijian-title" href="__MODULE__/Loupan/detail?id=<{$vo.house_id}>"><{$vo.house_name}></a>
+					<p class="tuijian-xinxi">均价：<span><{$vo.junjia}></span></p>
+					<p class="tuijian-xinxi">户型：<span><{$vo.mix_mianji}>-<{$vo.max_mianji}></span></p>
+					<p class="tuijian-xinxi">首付：<span><{$vo.shoufu}>起</span></p>
+				</li>
+			</volist>
+			</ul> -->
+		</div>
+		<script  type="text/javascript" src="__PUBLIC__/home/js/tongyong.js"></script>
+		<script  type="text/javascript" src="__PUBLIC__/home/js/banner.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/home/js/search.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/home/js/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/20001185/10056872.js"></script>
+                <script>
+                    $('.radio-box').click(function(){
+//                        var data=$('#shaixuan').serializeArray()                       
+                        $('#shaixuan').submit()
+//                        $.ajax({
+//                            type: "POST",
+//                            url: "__MODULE__/Search/search",
+//                            data: data,
+//                            success:function(data){
+//                                
+//                            }
+//                         })
+                    })
+                </script>
+
+</block>

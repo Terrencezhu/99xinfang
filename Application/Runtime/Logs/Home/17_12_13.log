@@ -1,0 +1,1792 @@
+[ 2017-12-13T10:11:15+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T10:50:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:50:33+08:00 ] 127.0.0.1 /index.php/Search/search?guanjianzi=123123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` WHERE ( `house_name` LIKE '%123123%' OR `house_address` LIKE '%123123%' OR `dili` LIKE '%123123%' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( b.house_name LIKE '%123123%' OR b.house_address LIKE '%123123%' OR b.dili LIKE '%123123%' ) AND a.img_class = 'face' LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:50:45+08:00 ] 127.0.0.1 /index.php/Search/search?guanjianzi=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0130s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0180s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` WHERE ( `house_name` LIKE '%123%' OR `house_address` LIKE '%123%' OR `dili` LIKE '%123%' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( b.house_name LIKE '%123%' OR b.house_address LIKE '%123%' OR b.dili LIKE '%123%' ) AND a.img_class = 'face' LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0130s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-13T10:51:19+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:51:29+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:51:34+08:00 ] 127.0.0.1 /index.php/Hot/hot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-13T10:52:18+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0110s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:52:19+08:00 ] 127.0.0.1 /index.php/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:55:34+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T10:55:37+08:00 ] 127.0.0.1 /index.php/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:02:08+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0150s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0130s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:02:25+08:00 ] 127.0.0.1 /index.php/Search/search?city=0&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:02:28+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:02:28+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:02:29+08:00 ] 127.0.0.1 /index.php/Search/search?city=0&price=0&lx=0&mj=0&xs=0&jz=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0130s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:04:37+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0120s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:04:52+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0170s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0150s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:04:58+08:00 ] 127.0.0.1 /index.php/Search/search?city=0&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0170s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:07+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0200s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0120s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:10+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:10+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:10+08:00 ] 127.0.0.1 /index.php/Search/search?city=2&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:13+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:13+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:11:13+08:00 ] 127.0.0.1 /index.php/Search/search?city=9&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:16+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:11:16+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:11:16+08:00 ] 127.0.0.1 /index.php/Search/search?city=12&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:21+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:21+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:21+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:26+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=4&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0160s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:33+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:11:33+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T11:11:33+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=4&price=2&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0080s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0110s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:36+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:36+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:36+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=4&price=0&lx=0&mj=2&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:38+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:38+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:11:38+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=4&price=0&lx=0&mj=0&xs=2&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0140s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:14:33+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radio.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-13T11:14:33+08:00 ] 127.0.0.1 /99xinfang/Public/home/img/radios.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:14:34+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=4&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0150s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0180s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0120s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0230s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-13T11:14:37+08:00 ] 127.0.0.1 /index.php/Search/search?city=14&next_city=8&price=0&lx=0&mj=0&xs=0&jz=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0150s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0190s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:25:20+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0150s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0180s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0140s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T11:25:20+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0130s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:40:02+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.1720s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0350s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0300s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.1200s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0420s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.1130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:41:57+08:00 ] 127.0.0.1 /search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0140s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0130s ]
+ERR: 非法操作:index
+
+[ 2017-12-13T14:42:38+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0160s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0140s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:46:55+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0210s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:46:58+08:00 ] 127.0.0.1 /index.php/Search/search/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 4,4   [ RunTime:0.0150s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:47:02+08:00 ] 127.0.0.1 /index.php/Search/search/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0210s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0100s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0150s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:10+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0130s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0150s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0170s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0140s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0190s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:18+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0100s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:22+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.2270s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0080s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:30+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.6310s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0140s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0110s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.2170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:36+08:00 ] 127.0.0.1 /index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0130s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T14:48:45+08:00 ] 127.0.0.1 /index.php/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T14:48:48+08:00 ] 127.0.0.1 /index.php/Search/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0120s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0080s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.2150s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 14 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 17 行.
+NOTIC: [8] Undefined index: price E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 21 行.
+NOTIC: [8] Undefined index: lx E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 25 行.
+NOTIC: [8] Undefined index: mj E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 29 行.
+NOTIC: [8] Undefined index: xs E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 33 行.
+NOTIC: [8] Undefined index: jz E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 37 行.
+NOTIC: [8] Undefined index: guanjianzi E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 43 行.
+NOTIC: [8] Undefined index: id E:\phpStudy\WWW\99xinfang\Application\Home\Controller\SearchController.class.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house_info` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0180s ]
+SQL: SELECT a.image,b.house_id,b.house_name,b.property_right,b.dili,b.mix_mianji,b.max_mianji,b.xiaoshou_zt,b.decorate,b.junjia,b.shoufu FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' ) LIMIT 0,4   [ RunTime:0.0120s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=2 )  [ RunTime:0.0070s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=3 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 188 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined index: next_city E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 200 行.
+NOTIC: [8] Undefined variable: list_house_info E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\dc21e6da2e1dbcec494898213c16ba46.php 第 355 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T15:18:48+08:00 ] 127.0.0.1 /index.php/Loupan/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0090s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 16 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_info` WHERE `house_id` = '1' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in E:\phpStudy\WWW\99xinfang\Application\Home\Controller\LoupanController.class.php on line 25 and defined E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1740 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1741 行.
+NOTIC: [8] Undefined variable: field E:\phpStudy\WWW\99xinfang\ThinkPHP\Library\Think\Model.class.php 第 1751 行.
+SQL: SELECT * FROM `house_image` WHERE `house_id` = '1' AND `img_face` = 1  [ RunTime:0.0070s ]
+SQL: SELECT `image`,`img_class` FROM `house_image` WHERE `house_id` = '1'  [ RunTime:0.0080s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.junjia,b.mix_mianji,b.max_mianji,b.shoufu,b.tel FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house_hximg` [ RunTime:0.0070s ]
+SQL: SELECT b.*,hx.* FROM house_hximg hx left join house_info b ON hx.house_id = b.house_id   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant xgt - assumed 'xgt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ybj - assumed 'ybj' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant sjt - assumed 'sjt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+NOTIC: [8] Use of undefined constant ptt - assumed 'ptt' E:\phpStudy\WWW\99xinfang\Application\Runtime\Cache\Home\0051c331f7e524eb51b2681a8245b3e9.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-13T16:58:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0140s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house_info` [ RunTime:0.0170s ]
+SQL: SELECT `house_id`,`house_name` FROM `house_info`  [ RunTime:0.0090s ]
+SQL: SELECT `region_id`,`region_name` FROM `region` WHERE ( level=1 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house_image` [ RunTime:0.0090s ]
+SQL: SELECT b.house_id,a.image,b.house_name,b.build_type,b.dili,b.mix_mianji,b.max_mianji,b.last_time,b.decorate FROM house_image a left join house_info b ON a.house_id = b.house_id  WHERE ( a.img_class='face' )  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

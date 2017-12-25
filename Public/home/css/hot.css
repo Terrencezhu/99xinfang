@@ -1,0 +1,43 @@
+#banner-left{width:110px;}
+#pinpai{width:100%;height:400px;}
+#pinpai li{float: left;height:400px;}
+#pinpai li img{width:100%;height:100%;}
+.pinpai-li1{width:400px;margin-right:10px;}
+.pinpai-li2{width:280px;}
+.pinpai-li3{width:400px;margin-right:10px;}
+.pinpai-li3 div{width:100%;height:195px;}
+.hot-hover:hover{box-shadow: 0px 10px 15px rgba(0,0,0,.1);transform:translate3d(0,-2px,0);-webkit-transform:translate3d(0,-1px,0);}
+.hot-jianjie{font-size:20px;color:#333;font-weight: bold;margin:20px 0 14px;}
+.hot-text{font-size:12px;color:#666;margin-bottom:30px;}
+.hot-peitao{font-size:18px;color:#333;margin-bottom: 10px;}
+.hot-peitao-box{height:135px;border:1px solid #e2e1e0;border-right:none;margin-bottom: 10px;}
+.hot-peitao-box ul{float:left;height:135px;border-right:1px solid #e2e1e0;}
+.hot-peitao-box ul li{font-size: 12px;color:#333;margin-left:20%;margin-bottom: 10px;}
+.hot-peitao-box ul div{font-size: 16px;color:#111;margin-left:20%;padding:15px 0px;}
+.hot-show,.hot-hover{position: relative;}
+.hottag{width:100px;height:30px;line-height: 30px;color:#fff;font-size:16px;text-align: center;background:#e14122;
+		position: absolute;left:0;bottom:20px;display: none;}
+.hot-hidden{width:100%;height:60px;text-align: center;color:#fff;background: rgba(0,0,0,.6);
+			font-size: ;position: absolute;left:0;bottom:0;font-size: 14px;display: none;}
+.hot-hidden-loupan{display:block;font-size: 16px;padding:5px 0;color:#fff;}
+.hot-list-ul1{width:280px;}
+.hot-list-ul2{width:270px;}
+.hot-list-ul3{width:155px;}
+.hot-list-ul4{width:175px;}
+.hot-list-ul5{width:214px;}
+.hot-many{display:block;width:100%;color:#e14122;font-size:14px;text-align: right;}
+/*hot-list 2*/
+.hot-list-head{width:100%;height:260px;margin-bottom:10px;}
+.hot-list-two{height:220px;}
+.hot-list-two a{display: block;width:360px;height:220px;float: left;margin-right: 10px;}
+.hot-list-two a img{width:100% height:100%;}
+/*hot-three 3*/
+.hot-list3{width:100%;height:500px;}
+.hot-list3 a{display: block;}
+.hot-three-left{display: block;width:400px;height:100%;float: left;}
+.hot-three-right{width:690px;height:100%;margin-left: 10px;float: right;}
+.hot-three-top{margin-bottom: 10px;}
+.hot-three-right div,.hot-three-top{width:100%;height:245px;}
+.hot-three-right div a{width:340px;height:100%;float:left;margin-left: 10px;}
+.hot-three-top img,.hot-three-left img,.hot-three-right div a img{width:100%;height:100%;}
+#hot-manys{display:block;width:100%;height:60px;line-height: 60px;background:#f5f5f5;font-size: 18px;text-align:center;color:#e14122;margin:35px 0;}

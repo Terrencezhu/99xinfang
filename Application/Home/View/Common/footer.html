@@ -1,0 +1,30 @@
+<footer>
+	
+			<!--底部-->
+		<div class="footer-box">
+			<div id="footer">
+				<img class="footer-img" src="__PUBLIC__/home/img/weixin.jpg" alt="" />
+				<div class="footer-nav">
+					<a href="__MODULE__/Aboutwe/we">关于我们</a>
+					<a href="__MODULE__/Aboutwe/contach">联系我们</a>
+					<a href="#">加入我们</a>
+					<a href="#">服务项目</a>
+					<a href="#">网站地图</a>
+					<div class="footer-phone">咨询热线<span class="dense-phone"><span></span>400-8650-777</span></div>
+				</div>
+				<ul class="footer-list">
+					<li>热销楼盘推荐</li>
+					<volist name="region_name" id="vo">
+						<li class="footer-tag"><a href="__MODULE__/Search/search"><{$vo.region_name}></a></li>
+					</volist>
+				</ul>
+				<div class="footer-loupan footer-loupans">
+				<volist name="house_name" id="vo">
+					<a href="__MODULE__/Loupan/detail?id=<{$vo.house_id}>" target="_blank"><{$vo.house_name}></a>
+				</volist>
+				</div>
+				<p class="footer-text">99新房网为您提供2017年全国楼盘动态，包括北京、上海、杭州等主要热门城市，包括最新楼盘、在售信息、新房开盘等，真实的</br>新房数据和实时的楼盘信息，尽在99新房网！</p>
+			</div>
+		</div>
+		<div id="footer-bottom"><p>嘉兴缔峰信息科技有限公司  版权所有 |  ©2017 99xinfang.com, all rights reserved.</p></div>
+</footer>

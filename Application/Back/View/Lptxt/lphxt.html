@@ -1,0 +1,69 @@
+<extend name="Layout/Back"  />
+<block name="content">
+		<div id="right">
+			<div class="right-list">
+				<div class="admin-title">楼盘信息>楼盘户型图添加</div>
+				<!-- <form action="__MODULE__/Lptxt/lphxt" method="post"> -->
+				<form action="__MODULE__/Lptxt/lphxt" enctype="multipart/form-data" method="post">
+					<ul class="quyu">
+							<li>&nbsp;楼盘名称
+								<select name="houselist_id" id="houselist_id">
+								  	<option value="0">请选择楼盘</option>
+								  <volist name="houselist_name" id="vo">
+									<option value="<{$vo.house_id}>"><{$vo.house_name}></option>
+								  </volist>
+								</select>
+							</li>
+					</ul>
+				<!-- </from> -->
+				<div class="admin-title">户型图信息添加</div>
+					<div class="xinxi">
+						
+						<ul class="huixing">
+							<li>户型名称：<input type="text" placeholder="A户型" name="hx_name"/></li></li>
+							<li>户型面积：<input type="text" name="hx_mianji" /></li></li>
+							<li><span class="letter-2">居</span>室：<input type="text" name="jushi" /></li></li>
+							<li>参考总价：<input type="text" name="ck_price" /></li></li>
+							<li>参考首付：<input type="text" name="ck_shoufu" /></li></li>
+							<div class="xinxi-file"><span>上传图像：</span>
+								<div class="file-box">
+									<input type="file" class="xinxi-files" name="hxt" />
+									<div class="xinxi-file-img"><img src="__PUBLIC__/houtaiimg/file.jpg" alt="" /></div>
+								</div>
+							</div>
+						</ul>
+
+<!-- 						<ul class="huixing">
+							<li>户型名称：<input type="text" placeholder="A户型" name="hx_name"/></li></li>
+							<li>户型面积：<input type="text" name="hx_mianji" /></li></li>
+							<li><span class="letter-2">居</span>室：<input type="text" name="jushi" /></li></li>
+							<li>参考总价：<input type="text" name="ck_price" /></li></li>
+							<div class="xinxi-file"><span>上传图像：</span>
+								<div class="file-box">
+									<input type="file" class="xinxi-files" name="hxt" />
+									<div class="xinxi-file-img"><img src="__PUBLIC__/houtaiimg/file.jpg" alt="" /></div>
+								</div>
+							</div>
+						</ul> -->	
+											
+	<!-- 					<ul class="huixing">
+							<li>户型名称：<input type="text" placeholder="A户型" name="hx_name"/></li></li>
+							<li>户型面积：<input type="text" name="hx_mianji" /></li></li>
+							<li><span class="letter-2">居</span>室：<input type="text" name="jushi" /></li></li>
+							<li>参考总价：<input type="text" name="ck_price" /></li></li>
+							<div class="xinxi-file"><span>上传图像：</span>
+								<div class="file-box">
+									<input type="file" class="xinxi-files" name="hxt" />
+									<div class="xinxi-file-img"><img src="__PUBLIC__/houtaiimg/file.jpg" alt="" /></div>
+								</div>
+							</div>
+						</ul> -->
+
+						
+						<div style="clear: both;"></div>
+					</div>
+					<input type="submit" name="button" id="button" value="提交" />
+				</form>
+			</div>
+		</div>
+</block>

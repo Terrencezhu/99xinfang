@@ -1,0 +1,65 @@
+<extend name="Layout/Back"  />
+<block name="content">
+
+		<div id="right">
+			<div class="right-list">
+				<ul class="xiugai-nav">
+					<li style="background: #c73619;color:#fff;">人员信息</li>
+					<li>搜索</li>
+				</ul>
+				<div class="xiugai-list wenzhang" style="display: block;">
+					<div class="xiugai-fenye">
+						<ul class="xiugai-list-title">
+							<li>姓名</li>
+							<li>性别</li>
+							<li>所属区域</li>
+							<li>操作</li>
+						</ul>
+						<volist name="counselor_list" id="vo">
+						<ul class="xiugai-body">
+							<li><{$vo.counselor_name}></li>
+							<li><{$vo.sex}></li>
+							<li><{$vo.region}></li>	
+							<li>
+								<div class="xiugai-alter"><img src="__PUBLIC__/houtaiimg/xiugai-alter.png" alt="" /></div>
+								<div class="xiugai-del"><img src="__PUBLIC__/houtaiimg/xiugai-del.png" alt="" /></div>
+							</li>
+						</ul>
+						</volist>
+					</div>
+					<{$page}>
+
+				</div>
+				<div class="xiugai-list">
+					<form action="">
+						<div class="sousuo">
+							销售名称：<input type="text" />
+							<div class="sousuo-img"><img src="__PUBLIC__/houtaiimg/sousuo.png" alt="" /></div>
+						</div>
+						<div class="sousuo-body">
+							<div></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var xiugai_nav_li=$(".xiugai-nav li");
+			var xiugai_list=$(".xiugai-list");
+			for(var i=0;i<2;i++){
+				xiugai_nav_li[i].onclick=function(){
+					for (var j=0;j<2;j++){
+						if(this==xiugai_nav_li[j]){
+							xiugai_nav_li[j].style.background="#c73619";
+							xiugai_nav_li[j].style.color="#fff"
+							xiugai_list[j].style.display="block";
+						}else{
+							xiugai_nav_li[j].style.background="";
+							xiugai_nav_li[j].style.color="";
+							xiugai_list[j].style.display="";
+						}
+					}
+				}
+			}
+		</script>
+</block>

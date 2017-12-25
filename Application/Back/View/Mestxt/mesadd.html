@@ -1,0 +1,37 @@
+<extend name="Layout/Back"  />
+<block name="content">
+
+		<div id="right">
+			<div class="right-list">
+				<div class="admin-title">楼盘资讯>添加文章</div>
+				<form action="">
+					<ul class="xinxi">
+						<li><span class="letter-2">标</span>题：<input type="text" /></li>
+						<li>发布时间：<input type="date" /></li>
+						<div style="clear: both;"></div>
+						<div class="xinxi-txt"><span>文章内容：</span><textarea name="" rows="" cols=""></textarea></div>
+						<div style="clear: both;"></div>
+						<div class="xinxi-file"><span>文章配图：</span>
+							<div class="file-box">
+								<input type="file" class="xinxi-files"/>
+								<div class="xinxi-file-img"><img src="__PUBLIC__/houtaiimg/file.jpg" alt="" /></div>
+							</div>
+						</div>
+					</ul>
+					<input type="submit" onclick="nulls()" name="button" id="button" value="提交" />
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript">
+			//判断inputs是否为空
+			 var inputs=$("input");
+			 function nulls(){
+			 	for(var g=0;g<inputs.length;g++){
+			 		if(inputs[g].value.length==0){
+			 			alert("还有未输入的选项");
+			 			return;
+			 		}
+			 	}
+			 }
+		</script>
+</block>

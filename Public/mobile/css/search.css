@@ -1,0 +1,34 @@
+/*banner图*/
+#banner{width:100%;height:3.8rem;}
+.swiper-pagination-bullet-active{background: #f65f40;}
+/*楼盘列表*/
+.loupan-name{font-size:0.28rem;height:0.3rem;color:#333;font-weight: bold;margin-bottom: 0.18rem;margin-left: 0.2rem;}
+.zongjia{position: absolute;color:#999;font-size: 0.22rem;}
+.loupan-xinxi{font-size:0.24rem;height:0.25rem;color:#333;margin-bottom: 0.16rem;margin-left: 0.2rem;}
+.loupan-tag{width:100%;height:0.3rem;margin-bottom: 0.24rem;}
+.loupan-tag li{display:inline-block;height:0.3rem;line-height:0.3rem;margin-left:0.2rem;background: #f8f8f8;color:#666;font-size: 0.2rem;padding:0 0.02rem;}
+.loupan-list{width:7.1rem;height:1.95rem;margin:auto;border-bottom:0.01rem solid #eee;position: relative;margin-bottom: 0.3rem;}
+.loupan-img{width:2.35rem;height:1.65rem;float:left;}
+.loupan-img img{width:100%;height:100%;}
+.loupan-body{width:4.75rem;float:left;}
+.loupan-jiage{position: absolute;top:0.42rem;right:0;color:#f0521a;font-size: 0.26rem;}
+.loupan-list .zongjia{top:0.88rem;right:0;}
+.many-box{width:100%;height:1.1rem;background: #f7f7f7;position: relative;}
+.many-link{width:7.1rem;height:0.8rem;margin:auto;line-height:0.8rem;text-align: center;color:#999;font-size:0.24rem;background: #fff;border-radius: 0.06rem;
+		position: absolute;top:0;right:0;bottom:0;left:0;}
+/*筛选标签search-biaoqian*/
+.search-biaoqian{width:7.1rem;height:1.8rem;padding-top:0.3rem;margin:0 auto 0.6rem;box-shadow: 0rem 0.02rem 0.01rem rgba(0,0,0,.1);}
+.search-biaoqian a{width:1.56rem;height:0.5rem;text-align: center;line-height: 0.5rem;font-size:0.24rem;color:#333;background: #f7f7f7;border-radius: 0.06rem;
+				float:left;margin-bottom: 0.4rem;margin-right: 0.28rem;}
+.search-biaoqian a:nth-child(4),.search-biaoqian a:last-child{margin-right: 0;}
+.center-img{width:100%;height:2rem;margin-bottom: 0.3rem;}
+.center-imgt{width:100%;height:1.2rem;margin-bottom: 0.3rem;}
+.bottom-link{text-align: center;font-size: 0.24rem;color:#666;margin-bottom: 0.3rem;}
+
+
+
+
+
+
+
+

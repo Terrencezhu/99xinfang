@@ -1,0 +1,41 @@
+<header>
+		<!--头部导航-->
+		<div class="nav-box">
+			<div id="nav">
+				<div id="logo"><img src="__PUBLIC__/home/img/logo.jpg" alt="" /></div>
+				<div id="city">
+					<p id="city-text"><span class="city-img"></span>上海</p>
+					<div id="citymenu-box">
+						<div class="citymenu-top"></div>
+						<div id="citymenu">
+							<p class="citymenu-t">选择城市</p>
+						<volist name="region_top" id="vo">
+							<a class="city-menu" href="__MODULE__/Search/search?id=<{$vo.region_id}>"><{$vo.region_name}></a>
+						<!-- 	<a class="city-menu" href="__MODULE__/Search/search">环上海</a>
+							<a class="city-menu" href="__MODULE__/Search/search">东戴河</a> -->
+						</volist>
+							<p class="citymenu-b">其他城市将陆续开放</p>
+						
+						</div>
+					</div>
+				</div>
+				<div class="navmenu">
+					<li class="nav-menu"><a href="__MODULE__/Index/index">首页</a></li>
+					<li class="nav-menu"><a href="__MODULE__/Hot/hot">热门推荐</a></li>
+					<li class="nav-menu"><a href="__MODULE__/Search/search">楼盘查询</a></li>
+					<li class="nav-menu"><a href="__MODULE__/News/news">房产资讯</a></li>
+					<li class="nav-menu" id="we">
+						<a href="__MODULE__/Aboutwe/we">关于我们</a>
+						<div id="drop">
+							<div class="citymenu-top"></div>
+							<div id="dropmenu">
+								<a class="drop-menu" href="__MODULE__/Aboutwe/we">公司简介</a>
+								<a class="drop-menu" href="__MODULE__/Aboutwe/we">置业顾问团队</a>
+								<a class="drop-menu" href="__MODULE__/Aboutwe/contach">联系我们</a>	
+							</div>
+						</div>
+					</li>	
+				</div>
+			</div>
+		</div>
+</header>

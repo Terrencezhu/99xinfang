@@ -1,0 +1,129 @@
+#loupan-head{width:100%;height:5.2rem;position: relative;margin-bottom:0.3rem;}
+#head-top{width:0.58rem;height:0.58rem;position: absolute;top:0.3rem;left:0.2rem;}
+#head-fenxiang{width:0.58rem;height:0.58rem;position: absolute;top:0.3rem;right:0.2rem;}
+#head-tuce{width:1.7rem;height:0.42rem;line-height:0.42rem;position: absolute;bottom:0.3rem;right:0.2rem;
+			background: rgba(0,0,0,.4);border-radius: 0.3rem;color:#fff;text-align: center;font-size: 0.2rem;}
+/*分享box*/
+#fenxiang-guanjbi{width:0.58rem;height:0.58rem;position: absolute;top:0.3rem;right:0.2rem;}
+#loupan-fenxiang{width:100%;height:100%;position: fixed;top:0;right:0;bottom:0;left:0;background: rgba(0,0,0,.5);z-index: 1000;display: none;}
+#fenxiang-box{width:100%;height:1.6rem;position: absolute;bottom:0;left:0;background: #fff;}		
+.fenxiang-title{width:3.9rem;height:0.3rem;margin:auto;padding:0.24rem 0;}
+.fenxiang{width:6.2rem;margin:auto;}
+/**/
+.loupan-mingcheng{width:7.1rem;margin:auto;font-size:0.34rem;color:#f65f40;position: relative;}
+.loupan-mingcheng span:first-child{font-weight: bold;}
+.cankao-jiage{font-size: 0.22rem;position: absolute;top:0;right:0;border:}
+.cankao-jiage span{font-size: 0.3rem;}
+/*楼盘热度*/
+.loupan-redu{width:7.1rem;margin:auto;padding:0.2rem 0;border-top:0.01rem solid #eee;}
+.loupan-redu span{display: inline-block;}
+.redu-span{font-size: 0.26rem;color:#f65f40;font-weight: bold;}
+.redu-box{display: inline-block;width:2.2rem;height:0.08rem;border:0.01rem solid #f65f40;padding:0.01rem;border-radius: 0.5rem;position: relative;vertical-align:5%;}
+.redu-background{width:86%;height:0.08rem;background:#f65f40;border-radius: 0.5rem;position: absolute;top:0.01rem;left:0.01rem;}
+.redu-num{color:#999;font-size: 0.2rem;float: right;}
+/*顶部标签*/
+#loupan-biaoqian{width:7.1rem;height:0.3rem;margin:0.2rem auto 0.3rem;}
+#loupan-biaoqian li{display:inline-block;color:#f65f40;font-size:0.2rem;line-height:0.2rem;padding:0.04rem 0.1rem;margin-right:0.1rem;font-size: 0.2rem;border:0.01rem solid #f65f40;border-radius: 0.06rem;float: left;}
+/*楼盘信息*/
+.top-xinxi{width:100%;height:auto;background:#fafafa;position: relative;}
+.top-xinxi div{width:7.1rem;margin:auto;padding:0.3rem 0;font-size:0.26rem;color:#333;border-bottom: 0.01rem solid #eee;}
+.top-xinxi div span{display: inline-block;width:0.3rem;height:0.3rem;margin-right:0.2rem;vertical-align:-10%;}
+.top-xinxi div:last-child{border:none;}
+#loupan-tongzhi{width:1.8rem;color:#f65f40;font-size: 0.24rem;position: absolute;top:0.3rem;right:0.2rem;}
+#loupan-tongzhi span{display: inline-block;width:0.22rem;height:0.24rem;margin-right:0.1rem;vertical-align:-6%;}
+#loupan-yuyue{width:7.1rem;height:0.6rem;line-height:0.6rem;margin:0.3rem auto;text-align:center;border:0.01rem solid #f65f40;color:#f65f40;font-size: 0.28rem;border-radius: 0.06rem;}
+#loupan-yuyue p{display: inline-block;width:0.46rem;height:0.4rem;vertical-align:-16%;margin-right: 0.1rem;}
+/*title*/
+.loupan-title{width:7.1rem;margin:auto;padding:0.3rem 0;border-bottom:0.01rem solid #eee;font-size:0.3rem;}
+.loupan-title span{display: inline-block;width:0.06rem;height:0.24rem;background:#f65f40;margin-right:0.1rem;border-radius: 0.06rem;vertical-align:-6%;}
+/*推荐理由*/
+.loupan-tuijian{width:7.1rem;height:auto;margin:auto;border-bottom:0.01rem solid #eee;padding:0.3rem 0;overflow: hidden;position: relative;}
+.tuijian-num{width:0.35rem;height:0.35rem;line-height:0.35rem;background:  #f65f40;color:#fff;font-size:0.22rem;text-align: center;border-radius: 50%;position: absolute;top:0.34rem;left:;}
+.tuijian-liyou{width:6.6rem;font-size:0.26rem;color:#333;float:right;}
+/*优惠通知报名弹出*/
+#baoming{width:100%;height:100%;margin:auto;position: fixed;top:0;right:0;bottom:0;left:0;background: rgba(0,0,0,.5);z-index: 1000;display: none;}
+#baoming-box{width:4.9rem;height:4.3rem;margin:auto;position:absolute;top:0;right:0;bottom:0;left:0;background: #fff;border-radius: 0.2rem;}
+.baoming-title{text-align: center;font-size: 0.3rem;color:#f65f40;padding:0.3rem 0;}
+.baoming-input{width:4.12rem;padding:0.2rem 0;margin:auto;border-bottom:0.01rem solid #eee;position: relative;}
+#baoming-box input[type="text"]{width:100%;height:0.4rem;font-size:0.26rem ;color:#999;border:none;}
+#baoming-box div:last-child{border:none;margin:0.2rem auto 0;}
+#baoming-quxiao,#baoming-tijiao{width:1.94rem;height:0.66rem;line-height: 0.66rem;font-size: 0.26rem;text-align: center;color:#fff;border-radius: 0.06rem;}
+#baoming-quxiao{background: #999;float:left;}
+#baoming-tijiao{background: #f65f40;float:right;}
+#baoming-submit{width:1.94rem;height:0.66rem;position: absolute;right:0;opacity: 0;}
+/*楼盘信息*/
+#center-xinxi{width:7.1rem;margin:0.3rem auto 0;}
+#center-xinxi div{width:50%;float:left;}
+.centerx-border{width:100%;height:0.01rem;background: #eee;clear: both;margin-bottom: 0.2rem;}
+.centerx-text{width:100%;padding-bottom:0.2rem;font-size: 0.26rem;color:#666;}
+.centerx-text span{color:#333;}
+#xinxi-link{width:7.1rem;height:0.8rem;text-align: center;line-height: 0.8rem;margin:0.1rem auto 0.3rem;font-size:0.248rem;color:#666;background: #f7f7f7;}
+/*信息跳转页*/
+.xinxi-list{width:7.1rem;margin:auto;}
+.xinxi-title{padding:0.2rem 0;font-size:0.3rem;color:#333;border-bottom:0.01rem solid #eee;margin-bottom: 0.2rem;}
+.xinxi-tag{font-size:0.26rem;height:0.55rem;color:#666;}
+.xinxi-tag span{color:#333;}
+.xinxi-text{font-size:0.26rem;color:#333;line-height: 0.4rem;}
+.jiage-list{width:100%;margin:auto;height:0.64rem;line-height:0.64rem;border:0.01rem solid #eee;border-top:none;color:#666;}
+.jiage-title{border-top:0.01rem solid #eee;color:#333;}
+.jiage-list li{width:1.76rem;height:100%;font-size:0.26rem;text-align: center;float:left;border-right:0.01rem solid #eee;}
+.jiage-list li:last-child{border:none;}
+.jiage-bottom{height:0.2rem;}
+/*户型介绍*/
+#huxing{width:100%;height:3.7rem;}
+#huxing .swiper-slide{width:100%;height:100%;}
+.huxing-img{width:2.56rem;height:1.64rem;margin:auto;padding:0.2rem 0;}
+.huxing-title{height:0.44rem;font-size:0.26rem; color:#333;text-indent: 0.2rem;}
+.huxing-text{height:0.4rem;font-size:0.22rem; color:#666;text-indent: 0.2rem;}
+.huxing-jiage{font-size:0.22rem; color:#999;text-indent: 0.2rem;}
+.huxing-jiage span{color:#f65f40;}
+/*户型图跳转页*/
+#huxing-img{width:100%;height:7.28rem;}
+.huxing-box{width:7.1rem;margin:auto;position: relative;}
+.huxing-xinxi{color:#666;font-size: 0.3rem;height:auto;margin-top:0.24rem;}
+.huxing-xinxi span{color:#333;}
+#huxing-jiage{position: absolute;top:0;right:0;font-size: 0.30rem;color:#f65f40;}
+#jisuanqi{position: absolute;top:0.58rem;right:0;width:0.48rem;height:0.48rem;}
+/*周边配套*/
+#loupan-map{width:100%;height:4.22rem;margin:0.3rem auto;position: relative;}
+#container{width:100%;height:100%;}
+#map-list{width:5.3rem;height:0.6rem;padding-top:0.01rem;background:#fff;position: absolute;bottom:0.2rem;right:0.6rem;z-index:100;}
+#map-list div{width:0.84rem;height:0.3rem;line-height:0.3rem;margin-top:0.14rem;font-size:0.24rem;color:#666;text-align:center;float:left;border-right:0.01rem solid #eee;}
+#map-luxian{width:0.82rem;height:0.6rem;line-height:0.6rem;background:#fff;position: absolute;bottom:0.2rem;left:0.6rem;z-index:100;text-align: center;font-size: 0.22rem;text-align: center;color:#f65f40;}
+#map-luxian span{display: inline-block;height:0.2rem;width:0.15rem;margin-right: 0.04rem;}
+/*楼盘推荐*/
+.loupan-list-top{margin-bottom:0.3rem;}
+.loupan-name{font-size:0.28rem;height:0.3rem;color:#333;font-weight: bold;margin-bottom: 0.18rem;margin-left: 0.2rem;}
+.zongjia{position: absolute;color:#999;font-size: 0.22rem;}
+.loupan-xinxi{font-size:0.24rem;height:0.25rem;color:#333;margin-bottom: 0.16rem;margin-left: 0.2rem;}
+.loupan-tag{width:100%;height:0.3rem;margin-bottom: 0.24rem;}
+.loupan-tag li{display:inline-block;height:0.3rem;line-height:0.3rem;margin-left:0.2rem;background: #f8f8f8;color:#666;font-size: 0.2rem;padding:0 0.02rem;}
+.loupan-list{width:7.1rem;height:1.95rem;margin:auto;border-bottom:0.01rem solid #eee;position: relative;margin-bottom: 0.3rem;}
+.loupan-img{width:2.35rem;height:1.65rem;float:left;}
+.loupan-img img{width:100%;height:100%;}
+.loupan-body{width:4.75rem;float:left;}
+.loupan-jiage{position: absolute;top:0.42rem;right:0;color:#f0521a;font-size: 0.26rem;}
+.loupan-list .zongjia{top:0.88rem;right:0;}
+/*图册*/
+#tuce-background{width:7.5rem;height:100%;margin:auto;position:absolute;top:0;right:0;bottom:0;left:0;background:#000;}
+.tuce-box{width:7.5rem;height:7rem;margin:auto;position:absolute;right:0;bottom:2rem;left:0;background:#000;opacity: 0;}
+#tuce-nav{width:7.5rem;height:0.94rem;line-height: 0.94rem;margin:auto;position:fixed;bottom:0;left:0;right:0;text-align: center;background: #000;z-index: 1000;}
+#tuce-nav li:first-child{color:#f65f40;}
+.tuce-tab{width:20%;color:#fff;font-size: 0.24rem;float: left;}
+.tuce-list{width:100%;height:5.3rem;margin:auto;}
+.tuce-bottom{width:7.1rem;margin:1.2rem auto 0;font-size: 0.3rem;color:#fff;text-indent: 0.4rem;}
+.tuce-bottom span{float:right;}
+.swiper-pagination{color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+

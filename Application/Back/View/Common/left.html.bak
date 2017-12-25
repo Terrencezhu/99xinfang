@@ -1,0 +1,36 @@
+		<div id="left">
+			<div id="logo"><img src="__PUBLIC__/houtaiimg/logo.jpg" alt="" /></div>
+			<ul id="admin-img">
+				<li><img src="__PUBLIC__/houtaiimg/admin-img.png" alt="" /></li>
+				<li><{$Think.session.admin_user_info.name}></li>
+			</ul>
+			<!--左侧导航-->
+			<ul class="left-list">
+				<li class="left-li"><img src="__PUBLIC__/houtaiimg/list-01.png" alt="" />首页<span class="left-li-span">▶</span></li>
+				<ul class="left-nav"></ul>
+				<li class="left-li" style="background:url(__PUBLIC__/houtaiimg/left-li.jpg) no-repeat"><img src="__PUBLIC__/houtaiimg/list-02.png" alt="" />楼盘信息<span class="left-li-span">▼</span></li>
+				<div class="left-nav" style="display: block;">
+					<a class="left-nav-li" href="__MODULE__/Lptxt/lpadd"><span>•</span>添加楼盘信息</a>
+					<a class="left-nav-li" href="__MODULE__/Lptxt/lpimg" style="background:url(__PUBLIC__/houtaiimg/left-li.jpg) no-repeat"><span>•</span>添加楼盘图片</a>
+					<a class="left-nav-li" href="__MODULE__/Lptxt/lpedit"><span>•</span>楼盘信息修改</a>
+				</div>
+				<li class="left-li"><img src="__PUBLIC__/houtaiimg/list-03.png" alt="" />咨询师信息<span class="left-li-span">▶</span></li>
+				<div class="left-nav">
+					<a class="left-nav-li" href="__MODULE__/Kftxt/kfadd"><span>•</span>添加信息</a>
+					<a class="left-nav-li" href="__MODULE__/Kftxt/kfedit"><span>•</span>信息修改</a>
+				</div>
+				<li class="left-li"><img src="__PUBLIC__/houtaiimg/list-04.png" alt="" />客户管理<span class="left-li-span">▶</span></li>
+				<div class="left-nav">
+					<a class="left-nav-li" href="__MODULE__/Khtxt/index"><span>•</span>客户信息</a>
+				</div>
+				<li class="left-li"><img src="__PUBLIC__/houtaiimg/list-05.png" alt="" />楼盘资讯<span class="left-li-span">▶</span></li>
+				<div class="left-nav">
+					<a class="left-nav-li" href="__MODULE__/Mestxt/mesadd"><span>•</span>添加文章</a>
+					<a class="left-nav-li" href="__MODULE__/Mestxt/mesedit"><span>•</span>文章编辑</a>
+				</div>
+				<li class="left-li"><img src="__PUBLIC__/houtaiimg/list-06.png" alt="" />账号管理<span class="left-li-span">▶</span></li>
+				<div class="left-nav">
+					<a class="left-nav-li" href="__MODULE__/User/index"><span>•</span>账户信息</a>
+				</div>
+			</ul>
+		</div>

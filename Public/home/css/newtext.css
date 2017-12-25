@@ -1,0 +1,69 @@
+body{background:#f5f5f5;}
+#address{border-bottom:0;}
+/*search搜索*/
+#address .form-box{width:480px;height:38px;position: absolute;top:10px;right:0;}
+#address .input-text,#address .span-text{width:388px;height:36px;line-height: 36px;text-indent: 10px;font-size: 14px;}
+#address .input-submit,#address .span-submit{width:88px;height:38px;line-height: 38px;font-size: 16px;}
+#address .span-submit span{vertical-align: middle;}
+/*文章*/
+#newtext-body{width:1020px;padding:40px;background: #fff;}
+.newtext-title{text-align: center;font-size:34px;}
+.newtext-date{font-size: 12px;color:#999;text-align: center;margin:15px 0;}
+.newtext-bold{font-size:14px;font-weight: bold;color:#333;line-height: 30px;}
+.newtext-bold:first-child{margin-bottom: 5px;}
+#newtext-body p{font-size: 14px;line-height: 30px;color:#333;}
+.newtext-img{text-align: center;height:auto;margin:10px 0;}
+.newtext-next{margin-left: 35px;line-height: 20px;}
+.newtext-nexts{margin-top: 15px;}
+.newtext-next a{font-size: 12px;color:#333;}
+.newtext-next a:hover{text-decoration: underline;}
+/*中间注册*/
+.search-content-box{width:100%;height:165px;position: relative;}
+.search-content-box p{text-align: center;color:#333;font-size: 16px;padding-top:20px;}
+.search-content-box .dense-phone{color:#e14122;}
+.search-content-box .form-box{width:483px;height:40px;margin:20px auto 0;}
+.search-content-box .input-text,.search-content-box .span-text{width:383px;height:38px;line-height: 38px;text-indent: 10px;font-size: 14px;}
+.search-content-box .input-submit,.search-content-box .span-submit{width:95px;height:40px;line-height: 40px;font-size: 14px;}
+.search-content-box .span-submit span{width:19px;height:25px;background:url(../img/background.png) 0px -75px no-repeat;vertical-align:-28%;}
+/*newtext-list*/
+#newtext-list{width:100%;height:245px;background:#fff;margin-bottom:25px;}
+.newtext-list-title{text-indent: 20px;font-size:20px;color:#333;line-height:60px;border-bottom:1px solid #e2e1e0;}
+#newtext-list ul{width:549px;border-right:1px solid #e2e1e0;height:144px;padding:20px 0;float:left;}
+#newtext-list ul li{width:100%;clear: both;height:23px;line-height: 23px;}
+.newtext-menu a,.newtext-time{font-size: 12px;color:#333;}
+.newtext-menu a:hover{text-decoration: underline;color:#e14122;}
+.newtext-menu{float:left;margin-left: 20px;}
+.newtext-time{margin-right: 100px;float:right;}
+/*newtext-hot*/
+#newtext-hot{width:100%;height:auto;background: #fff;padding-bottom:1px;margin-bottom: 20px;}
+/*推荐楼盘*/
+.tuijian-list{margin-top:20px;margin-bottom:30px;height:324px;overflow: hidden;}
+.tuijian-list li{width:266px;float:left;}
+.tuijian-li{margin-right:12px;}
+.tuijian-img{display:block;width:100%;height:180px;position: relative;overflow: hidden;}
+.tuijian-img img{width:100%;height:100%;position: absolute;left:0;top:0;}
+.tuijian-title{display:block;font-size: 20px;color:#333;font-weight:500;padding:14px 0;}
+.tuijian-title:hover{color:#e14122;}
+.tuijian-xinxi{font-size:14px;color:#999;margin-bottom:14px;}
+.tuijian-xinxi span{color:#333;}
+.tuijian-img img:hover{animation:fine 1s;-moz-animation:fine 1s;-webkit-animation:fine 1s;-ms-animation:fine 1s;}
+@keyframes fine{
+	from{width:100%;height:100%;top:0;left:0;}
+	to{width:103%;height:103%;top:-3%;left:-3%;}
+}
+@-moz-keyframes fine{
+	from{width:100%;height:100%;top:0;left:0;}
+	to{width:103%;height:103%;top:-3%;left:-3%;}
+}
+@keyframes fine{
+	from{width:100%;height:100%;top:0;left:0;}
+	to{width:103%;height:103%;top:-3%;left:-3%;}
+}
+@-webkit-keyframes fine{
+	from{width:100%;height:100%;top:0;left:0;}
+	to{width:103%;height:103%;top:-3%;left:-3%;}
+}
+@-ms-keyframes fine{
+	from{width:100%;height:100%;top:0;left:0;}
+	to{width:103%;height:103%;top:-3%;left:-3%;}
+}

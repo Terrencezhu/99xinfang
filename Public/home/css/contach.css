@@ -1,0 +1,35 @@
+.center{margin:30px auto 40px;color:#333;}
+#content-title{text-align: center;font-size:24px;margin:50px auto 40px;}
+#content-img{width:600px;height:360px;margin-bottom: 20px;}
+#content-img img{width:100%;height:100%;}
+#content p{font-size:14px;margin-bottom: 15px;}
+/*contach-nav*/
+#contach-nav{width:200px;height:auto;float:left;}
+#contach-nav li{padding-bottom:10px;margin-bottom:16px;border-bottom: 1px solid #e2e1e0;font-size: 14px;cursor: pointer;}
+#contach-nav a{color:#333;}
+#contach-nav .contach-nav-li{border-bottom: 1px solid #e14122;}
+#contach-nav .contach-nav-li a{color:#e14122;}
+/*contach-body*/
+#contach-body{width:800px;height:auto;float:right;}
+.title-index{width:100%;margin:20px auto;font-size: 16px;}
+.contach-title{font-size: 14px;font-weight: bold;margin:14px 0;}
+.contach-text{font-size:14px;line-height:30px;}
+.contach-weixin{width:200px;height:200px;}
+/*hezuo-img*/
+.hezuo-img{margin-top: 30px;}
+#hezuo-button{width:160px;height:40px;line-height:40px;margin:30px auto 0;background:#e14122;font-size: 14px;color:#fff;text-align: center;cursor: pointer;}
+/*申请合作*/
+#hezuo-background{width:100%;height:100%;position: fixed;top:0;right:0;bottom:0;left:0;background: #000;z-index:500;opacity: 0.9;filter:alpha(opacity=90);display: none;}
+#hezuo-fixed{width:910px;height:290px;background: #fff;margin: auto;position:fixed;top:0;right:0;bottom:0;left:0;z-index: 501;padding:30px 60px;display: none;}
+#img-guanbi{width:32px;height:30px;position: absolute;top:5%;right:5%;cursor: pointer;z-index:1002;background: url(../img/guanbi.png) no-repeat;}
+.hezuo-title{font-size:24px;color:#666;margin-bottom:5px;}
+.hezuo-text{font-size:16px;color:#999;margin-bottom: 6px;}
+#hezuo-left{width:340px;height:100%;border-right:1px solid #e2e1e0;float:left;}
+#hezuo-right{width:508px;height:100%;float: right;}
+.hezuo-input-box{width:100%;height:auto;margin-bottom:20px;}
+.hezuo-input:nth-child(2){margin-left:47px;}
+#hezuo-right input[type="text"]{width:226px;height:36px;line-height:36px;border-radius: 4px;color:#999;border:1px solid #e2e1e0;text-indent: 10px;font-size: 14px;}
+#hezuo-right textarea{width:100%;height:114px;border:1px solid #e2e1e0;outline: none;resize: none;color:#333;text-indent: 10px;line-height: 20px;font-size: 14px;}
+#hezuo-right input[type="submit"]{width:236px;height:38px;line-height: 38px;background: #e14122;color:#fff;font-size: 16px;border-radius: 4px;margin-top: 20px;}
+
+

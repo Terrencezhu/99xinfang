@@ -1,0 +1,56 @@
+<flow>
+		
+		<div id="flow-box">
+			<ul id="flow">
+				<li class="flowmenu">
+					<img src="__PUBLIC__/home/img/flow-01.png" alt="" />
+					<div class="flow-left flow-lefts">咨询热线：<span class="dense-phone">400-8792-777</span><img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" /></div>
+				</li>
+				<li class="flowmenu">
+					<img onclick="doyoo.util.openChat('g=10059322');return false;" src="__PUBLIC__/home/img/flow-02.png" alt="" />
+					<div class="flow-left">在线咨询<img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" /></div>
+				</li>
+				<li id="flowmenu3" class="flowmenu">
+					<img src="__PUBLIC__/home/img/flow-03.png" alt="" />
+					<div class="flow-left">免费通话<img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" /></div>
+				</li>
+				<li id="flowmenu4" class="flowmenu">
+					<img src="__PUBLIC__/home/img/flow-04.png" alt="" />
+					<div class="flow-left">购房预约<img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" /></div>
+				</li>
+			</ul>
+			<ul id="flowbottom">
+				<li class="flowmenu">
+					<img src="__PUBLIC__/home/img/flow-05.png" alt="" />
+					<div class="flow-left flowweixin">
+						<div id="flow-weixin"><img src="__PUBLIC__/home/img/weixin.jpg" alt="" /></div>
+						<p>99新房</p>
+						<p>微信公众号</p>
+						<img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" />
+					</div>
+				</li>
+				<li class="flowmenu" id="btn">
+					<img src="__PUBLIC__/home/img/flow-06.png" alt="" />
+					<div class="flow-left">回到顶部<img class="flow-arr" src="__PUBLIC__/home/img/flow-arr.png" alt="" /></div>
+				</li>
+			</ul>
+			<div id="flowcontent">
+				<ul id="flow-top">
+					<li>99新房</li>
+					<li>竭诚为您服务</li>
+				</ul>
+				<form id="flowform" action="__MODULE__/Common/addkehu" method="post" target="iframe">
+					<input id="flow_name" type="text" placeholder="请输入您的称呼" name="kehu_name" value="请输入您的称呼"/>
+					<input id="flow_phone" type="text"  placeholder="请输入您的手机号"  name="kehu_tel" value="请输入您的手机号"/>
+					<input id="flow_th" type="submit" value="免费通话" name="button" />
+				</form>
+				<iframe name="iframe" style="display:none;"></iframe>
+				<p class="flow-tel">免费咨询热线：<span class="dense-phone">400-8792-777</span></p>
+				<p class="flow-tag">99新房全程为您服务</p>
+				<div class="flow-liucheng">
+					<img src="__PUBLIC__/home/img/flowliucheng.jpg" alt="" />
+				</div>
+				<p id="flow-bottom"></p>
+			</div>
+		</div>
+</flow>
